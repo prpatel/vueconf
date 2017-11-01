@@ -1,25 +1,23 @@
 <template lang="pug">
 .section.post-section
-  .nav-target#venue
+  .nav-target#location
   .container__inner
     h1
-      | Venue
-    .half
-      img(src="~assets/img/nhcinema.jpg" alt="New Horizons Cinema, Wrocław")
-    .half.text-left
-      h2: strong New Horizons Cinema
+      | Location
+    .text-center
+      h2: strong Sheraton New Orleans
       p
-        | The conference (June 22–23) will take place in the
-        strong  New Horizons Cinema
-        | , the largest art-cinema in Poland.
+        | VueConf.US will take place in the heart of historic New Orleans, within walking distance of the best food, music, and culture the city has to offer.
 
       p
         strong Address:
         br
-        | Kazimierza Wielkiego 19a-21
+        | 500 Canal St,
         br
-        | 50-077 Wrocław, Poland
-      a.button.button--dark(href="https://goo.gl/maps/wDdmhQGQb9N2", target="_BLANK") SEE THE MAP
+        | New Orleans, LA
+      a.button.button--dark(href="https://goo.gl/maps/hNy2FiQWVgu", target="_BLANK") SEE THE MAP
+    a.venue__map(href="https://goo.gl/maps/hNy2FiQWVgu", target="_BLANK")
+      img(src="~assets/img/map.png" alt="Sheraton New Orleans")
 </template>
 
 <script>
@@ -29,22 +27,18 @@ export default {
 
 <style lang="sass" scoped>
   @import ~assets/css/base/helpers
+  @import ~assets/css/components/card
 
   .section.post-section
     background-color: white
 
-  .half
-    display: inline-block
-    max-width: 100%
-    vertical-align: middle
-    text-align: left
+  .venue__map
+    margin-top: 40px
+    display: block
+    @include card
 
     img
       max-width: 100%
-
-    @media #{$medium-up}
-      padding: 0 20px
-      max-width: calc(50% - 40px)
 
   .button
     margin-top: 20px

@@ -4,18 +4,20 @@
     .nav-target#tickets
     h1 Tickets
     p
-      | First come first served!
+      | Early bird registration is $695 and is limited to the first 100 tickets!
       br
-      | The number of tickets is limited - save your seat today and join the first Vue.js community conference in the world.
+      | Does not include a workshop ticket.
     .ticket(v-for="ticket in tickets")
-      span.ticket__name {{ ticket.name }}
+      span
+        span.ticket__name {{ ticket.name }}
         span.ticket__date {{ ticket.date }}
-      a.button.button--dark.ticket__price(
-        :disabled="ticket.disabled"
-        href="https://events.zippydesk.com/vueconf-2017/register",
-        @click="trackTicketsEvent"
-      )
-        | {{ ticket.price }}
+      .ticket__price
+        a.button.button--dark(
+          :disabled="ticket.disabled"
+          href="https://events.zippydesk.com/vueconf-2017/register",
+          @click="trackTicketsEvent"
+        )
+          | {{ ticket.price }}
 </template>
 
 <script>
@@ -65,7 +67,7 @@ export default {
 .ticket
   margin: 0 auto
   text-align: left
-  max-width: 600px
+  max-width: 700px
   background: #fff
   margin-bottom: 20px
   border-radius: 5px
@@ -86,6 +88,8 @@ export default {
   padding-right: 20px
   line-height: 43px
   font-size: 22px
+  display: inline-block
+  vertical-align: middle
 
 .tickets__info
   color: #fff
@@ -93,15 +97,21 @@ export default {
   font-weight: 300
 
 .ticket__date
-  padding-left: 10px
   color: #bbb
   line-height: 43px
   font-size: 18px
+  max-width: 250px
+  display: inline-block
+  line-height: 1
+  vertical-align: middle
 
 .ticket__price
-  display: inline-block
+  display: block
   font-size: 22px
   vertical-align: middle
+
+  @media #{$medium-up}
+    display: inline-block
 
 .button--dark
   font-size: 18px

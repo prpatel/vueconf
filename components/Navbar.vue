@@ -21,10 +21,10 @@
             | Schedule
         li.navbar-nav__item
           nuxt-link(to="/guide")
-            | Guide
+            | Call for Papers
         li.navbar-nav__item
-          nuxt-link.button(to="/summary")
-            | Summary
+          a.button(href="https://tickets.connectevents.io/events/vueconfus/")
+            | Register
 </template>
 
 <script>

@@ -71,10 +71,10 @@ div
 </template>
 
 <script>
-import VenueSection from '~components/Venue'
-import WroclawVideo from '~components/WroclawVideo'
-import Attraction from '~components/Attraction'
-import Hint from '~components/Hint'
+import VenueSection from '@/components/Venue'
+import WroclawVideo from '@/components/WroclawVideo'
+import Attraction from '@/components/Attraction'
+import Hint from '@/components/Hint'
 import hotels from '~/content/hotels'
 import restaurants from '~/content/restaurants'
 import hints from '~/content/hints'

@@ -11,10 +11,10 @@
 </template>
 
 <script>
-import Navbar from '~components/Navbar'
-import FooterSection from '~components/Footer'
-import Cookies from '~components/Cookies'
-import SplashVideo from '~components/SplashVideo'
+import Navbar from '@/components/Navbar'
+import FooterSection from '@/components/Footer'
+import Cookies from '@/components/Cookies'
+import SplashVideo from '@/components/SplashVideo'
 
 export default {
   components: { Navbar, FooterSection, Cookies, SplashVideo },

@@ -1,15 +1,21 @@
 <template lang="pug">
   .hero-banner
     .hero-banner__content
-      logo-type
+      //- logo-type
+      img.hero-banner__image(src="~/assets/img/vuesplash.png")
       h2.hero-banner__subheader
-        strong New Horizons Cinema
+        strong Sheraton New Orleans
         br
-        | Wrocław, Poland • June 21-23, 2017
+        | LA, USA • March 26-28, 2018
+      h1.hero-banner__tagline Music. Food. Vue.
       h2.hero-banner__subheader.hero-banner__subheader--last
-        | The first Official Vue.js Conference in the world!
-      nuxt-link.post-section__button.button(to="/summary")
-        | See the summary
+        strong Workshop day:
+        |  March 26,
+        br
+        strong Main Conference:
+        |  March 27-28
+      a.post-section__button.button(href="https://tickets.connectevents.io/events/vueconfus/")
+        | Register
 </template>
 
 <script>
@@ -33,6 +39,9 @@ export default {
 
 <style lang="sass">
 @import ~assets/css/base/helpers
+
+.hero-banner__tagline
+  margin-bottom: 5px
 
 .hero-banner
   text-align: center
@@ -60,8 +69,8 @@ export default {
 
 .hero-banner__image
   display: block
-  margin: auto
-  width: 167px
+  margin: 0 auto
+  max-width: 100%
 
 .hero-banner__header
   font-family: $font
@@ -97,7 +106,7 @@ export default {
   margin-top: 0
 
   &--last
-    margin-top: 45px
+    margin-top: 25px
     text-transform: none
 
   @media #{$medium-up}

@@ -2,28 +2,31 @@
 .section.sponsors-section.center
   .container__inner
     h1 Sponsors
-    .sponsors__container
-      .div
-        a(href="https://codeship.com/", target="_BLANK")
-          img.sponsor__image(src="~assets/img/logo_codeship_colour.svg")
-        a(href="https://www.nativescript.org/", target="_BLANK")
-          img.sponsor__image(src="~assets/img/logo_native-script.svg")
-        a(href="https://monaca.io/", target="_BLANK")
-          img.sponsor__image(src="~assets/img/monaca-logo.svg")
+    //- TODO: Fill this as needed when there are sponsors
+    //- .sponsors__container
+    //-   .div
+    //-     a(href="https://codeship.com/", target="_BLANK")
+    //-       img.sponsor__image(src="~assets/img/logo_codeship_colour.svg")
+    //-     a(href="https://www.nativescript.org/", target="_BLANK")
+    //-       img.sponsor__image(src="~assets/img/logo_native-script.svg")
+    //-     a(href="https://monaca.io/", target="_BLANK")
+    //-       img.sponsor__image(src="~assets/img/monaca-logo.svg")
 
-    h2 Partners
-    .sponsors__container
-      div
-        a(href="https://www.kinonh.pl/", target="_BLANK")
-          img.partner__image.partner__image--special(src="~assets/img/knh-logo.svg")
-      div
-        a(href="http://vue-newsletter.com/", target="_BLANK")
-          img.partner__image(src="~assets/img/logo_vue-newsletter.png")
-        a(href="https://vuejsfeed.com/", target="_BLANK")
-          img.partner__image(src="~assets/img/vuejsfeed-logo.png")
+    //- h2 Partners
+    //- .sponsors__container
+    //-   div
+    //-     a(href="https://www.kinonh.pl/", target="_BLANK")
+    //-       img.partner__image.partner__image--special(src="~assets/img/knh-logo.svg")
+    //-   div
+    //-     a(href="http://vue-newsletter.com/", target="_BLANK")
+    //-       img.partner__image(src="~assets/img/logo_vue-newsletter.png")
+    //-     a(href="https://vuejsfeed.com/", target="_BLANK")
+    //-       img.partner__image(src="~assets/img/vuejsfeed-logo.png")
 
     p Help us make it the best possible conference for the community.
-    a.button(href="mailto:support@vueconf.eu") Become a Partner
+    a.button(
+      href="https://docs.google.com/forms/d/e/1FAIpQLSfDU6CAZtk9YMC3oSA7Qon7wS4DfpqpT6MfhuCOpdUhCBW_PA/viewform"
+    ) Become a Partner
 </template>
 
 <script>
