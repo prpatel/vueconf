@@ -55,11 +55,15 @@ export default {
   },
   methods: {
     showDetails () {
+      if (this.speaker.link) {
+        this.$router.push(`/workshops?focus=${this.speaker.link}`)
+        return
+      }
       this.modalVisible = true
-      ga('send', 'event', {
-        eventAction: 'click',
-        eventCategory: `Speaker details ${this.speaker.name}`
-      })
+      // ga('send', 'event', {
+      //   eventAction: 'click',
+      //   eventCategory: `Speaker details ${this.speaker.name}`
+      // })
     }
   },
   computed: {
@@ -129,6 +133,8 @@ export default {
   font-size: 14px
   font-weight: 300
   color: #8795a9
+  word-break: break-words
+  white-space: pre-line
 
   @media #{$medium-up}
     font-size: 16px

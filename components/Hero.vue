@@ -25,12 +25,12 @@ export default {
   components: { LogoType },
   methods: {
     trackTicketsEvent (event) {
-      ga('send', 'event', {
-        eventAction: 'click',
-        eventLabel: event.target.href,
-        eventCategory: 'Tickets link - hero',
-        transport: 'beacon'
-      })
+      // ga('send', 'event', {
+      //   eventAction: 'click',
+      //   eventLabel: event.target.href,
+      //   eventCategory: 'Tickets link - hero',
+      //   transport: 'beacon'
+      // })
       _pq.push(['track', 'GoToTickets'])
     }
   }

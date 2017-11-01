@@ -3,30 +3,14 @@ div
   hero-section
 
   .container
-    .container__inner.section.post-section
-      .cfp-video
-        iframe(
-          width="520"
-          height="292"
-          src="https://www.youtube.com/embed/i9SK-l2gQEE?rel=0&amp;showinfo=0"
-          frameborder="0"
-          allowfullscreen
-        )
-      .cfp-content
-        h1 Join the band!
-        h4 Call for Papers Open Now
-
-        p We're looking for submissions on all things Vue.js!
-
-        .center
-          nuxt-link(to="/schedule")
-            button.button.speaker-button Apply as a speaker
+    SubmitTalks
+    //- .container__inner.section.post-section
       //- TODO: Uncomment when there are speakers
       //- speakers-list(:speakers="speakers")
     tickets-section#tickets
+    workshops-section
     venue-section
     //- newsletter-section
-
     sponsors-section
     //- organizers-section
 </template>
@@ -40,6 +24,7 @@ import OrganizersSection from '@/components/Organizers'
 import SubmitTalks from '@/components/SubmitTalks'
 import TicketsSection from '@/components/Tickets'
 import VenueSection from '@/components/Venue'
+import WorkshopsSection from '@/components/Workshops'
 import speakers from '../content/speakers/speaker-list'
 
 export default {
@@ -51,7 +36,8 @@ export default {
     SpeakersList,
     SubmitTalks,
     TicketsSection,
-    VenueSection
+    VenueSection,
+    WorkshopsSection
   },
   head: {
     title: 'VueConf US – March 26–28, 2018 in New Orleans, USA | Vue.js Conference'
@@ -66,9 +52,6 @@ export default {
 
 <style lang="sass" scoped>
 @import ~assets/css/base/helpers
-
-.speaker-button
-  margin: 40px 0 10px
 
 .container
   padding-top: 50px
@@ -85,28 +68,4 @@ h3
 
   @media #{$medium-up}
     font-size: 32px
-
-.cfp-video
-  display: inline-block
-  max-width: 100%
-  vertical-align: middle
-  text-align: left
-
-  @media #{$medium-up}
-    padding: 0 20px 0 0
-    max-width: calc(60% - 40px)
-
-.cfp-content
-  display: inline-block
-  max-width: 100%
-  vertical-align: middle
-  text-align: left
-
-  @media #{$medium-up}
-    padding: 0 20px
-    max-width: calc(40% - 40px)
-
-  h1, h4
-    margin: 0
-
 </style>

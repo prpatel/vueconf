@@ -23,11 +23,11 @@
 export default {
   methods: {
     trackNewsletterEvent (event) {
-      ga('send', 'event', {
-        eventAction: 'click',
-        eventCategory: 'Newsletter sub',
-        transport: 'beacon'
-      })
+      // ga('send', 'event', {
+      //   eventAction: 'click',
+      //   eventCategory: 'Newsletter sub',
+      //   transport: 'beacon'
+      // })
     }
   }
 }

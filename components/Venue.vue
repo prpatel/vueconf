@@ -29,6 +29,9 @@ export default {
   @import ~assets/css/base/helpers
   @import ~assets/css/components/card
 
+  h1
+    margin-bottom: 0
+
   .section.post-section
     background-color: white
 

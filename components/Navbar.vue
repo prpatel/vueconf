@@ -39,14 +39,14 @@
         this.isOpen = !this.isOpen
       },
       trackTicketsEvent (event) {
-        ga('send', 'event', {
-          eventAction: 'click',
-          eventLabel: event.target.href,
-          eventCategory: 'Tickets link',
-          transport: 'beacon'
-        })
-        _pq.push(['track', 'GoToTickets'])
-        fbq('trackCustom', 'GoToTickets', { source: 'Navigation' });
+        // ga('send', 'event', {
+        //   eventAction: 'click',
+        //   eventLabel: event.target.href,
+        //   eventCategory: 'Tickets link',
+        //   transport: 'beacon'
+        // })
+        // _pq.push(['track', 'GoToTickets'])
+        // fbq('trackCustom', 'GoToTickets', { source: 'Navigation' });
       }
     }
   }

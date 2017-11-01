@@ -31,14 +31,14 @@ export default {
   },
   methods: {
     trackTicketsEvent (event) {
-      ga('send', 'event', {
-        eventAction: 'click',
-        eventLabel: event.target.href,
-        eventCategory: 'Tickets link',
-        transport: 'beacon'
-      })
-      _pq.push(['track', 'GoToTickets'])
-      fbq('trackCustom', 'GoToTickets', { source: 'Main page' });
+      // ga('send', 'event', {
+      //   eventAction: 'click',
+      //   eventLabel: event.target.href,
+      //   eventCategory: 'Tickets link',
+      //   transport: 'beacon'
+      // })
+      // _pq.push(['track', 'GoToTickets'])
+      // fbq('trackCustom', 'GoToTickets', { source: 'Main page' });
     }
   }
 }

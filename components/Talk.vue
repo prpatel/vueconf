@@ -1,6 +1,6 @@
 <template lang="pug">
 .talk__container
-  .talk(:id="id")
+  .talk(:id="id", ref="talk", tabindex="0")
     .talk__image-container
       .talk__images
         img.talk__image(v-for="image of images", :src="image", :alt="talk.author")
@@ -30,6 +30,11 @@ export default {
     id () {
       return this.talk.author.toLowerCase().split(' ').join('-')
     }
+  },
+  mounted () {
+    if (this.id === this.$route.query.focus) {
+      this.$refs.talk.focus()
+    }
   }
 }
 </script>
@@ -54,6 +59,9 @@ export default {
   @media #{$medium-up}
     flex-direction: row
     padding: 40px
+
+  &:focus
+    outline: none
 
 .talk__description
   flex: 5
