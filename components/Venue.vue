@@ -4,6 +4,8 @@
   .container__inner
     h1
       | Location
+    a.venue__map(href="https://goo.gl/maps/hNy2FiQWVgu", target="_BLANK")
+      img(src="~assets/img/map.png" alt="Sheraton New Orleans")
     .text-center
       h2: strong Sheraton New Orleans
       p
@@ -16,8 +18,6 @@
         br
         | New Orleans, LA
       a.button.button--dark(href="https://goo.gl/maps/hNy2FiQWVgu", target="_BLANK") SEE THE MAP
-    a.venue__map(href="https://goo.gl/maps/hNy2FiQWVgu", target="_BLANK")
-      img(src="~assets/img/map.png" alt="Sheraton New Orleans")
 </template>
 
 <script>

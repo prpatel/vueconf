@@ -22,7 +22,7 @@ import talks from '../content/agenda'
 
 export default {
   head: {
-    title: 'VueConf 2017 | Talks'
+    title: 'VueConf US 2018 | Talks'
   },
   components: { Talk },
   data () {

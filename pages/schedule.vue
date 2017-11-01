@@ -29,7 +29,7 @@ import eventsDay2 from '../content/scheduleDay2'
 
 export default {
   head: {
-    title: 'VueConf 2017 | Talks'
+    title: 'VueConf US 2018 | Talks'
   },
   components: { Event },
   data () {

@@ -123,6 +123,8 @@ export default {
 
 .talk__author-info
   text-align: center
+  word-break: break-word
+  white-space: pre-line
 
 .center
   margin-top: 30px

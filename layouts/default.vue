@@ -5,8 +5,8 @@
   <nuxt></nuxt>
 
   <footer-section></footer-section>
-  <cookies/>
-  <splash-video :videoUrl="splashVideoUrl"></splash-video>
+  <!-- <cookies/> -->
+  <!-- <splash-video :videoUrl="splashVideoUrl"></splash-video> -->
 </div>
 </template>
 
@@ -26,7 +26,7 @@ export default {
   },
   data() {
     return {
-      splashVideoUrl: 'https://www.youtube.com/embed/TsgdiXGWlIY'
+      // splashVideoUrl: 'https://www.youtube.com/embed/TsgdiXGWlIY'
     }
   }
 }

@@ -3,34 +3,37 @@
   .container__inner.post-section
     h1.agenda__header Workshops
     p.subheader__description
-      strong DAY 1 (21 June) 9:00 – 17:00
-      br
-      strong 
-        | Location:
-        a(href="https://goo.gl/maps/Y9MwJikkhB32", target="_BLANK")  ibis Styles Wrocław
-      br
-      br
-      | Theory is not enough.
-      br
-      | Join our intensive,
-      strong  8-hour long workshops
-      |  with world-class Vue.js experts.
-      br
+      strong Monday March 26
+      //- strong
+      //-   | Location:
+      //-   a(href="https://goo.gl/maps/Y9MwJikkhB32", target="_BLANK")  ibis Styles Wrocław
       br
       | Workshops and conference tickets are sold separately.
-      br
-      br
-      small
-        strong Requirements:
-        br
-        | - A laptop and a charger
-        br
-        | - Dev environment ready (Node.js + npm/yarn)
-        br
-        | - Your favourite editor
+
+      //- small
+      //-   strong Requirements:
+      //-   br
+      //-   | - A laptop and a charger
+      //-   br
+      //-   | - Dev environment ready (Node.js + npm/yarn)
+      //-   br
+      //-   | - Your favourite editor
     .agenda
       talk(:talk="evanWorkshop", :desc-flex="7")
-        a.button(slot="ticket", disabled) Sold out
+        //- a.button(slot="ticket", disabled) Sold out
+      talk(:talk="chrisWorkshop", :desc-flex="7")
+      talk(:talk="sarahWorkshop", :desc-flex="7")
+        :markdown-it
+          In one day of training, attendees will go from knowing nothing (or very little) about animating in Vue to creating complex effects in performant and visually stunning patterns. The web is more than a document reader, and Vue has unique offerings that make animations not only possible, but possible to do in an organized and state-managed manner.
+
+          What we'll go over is included but not limited to:
+          - Working with SVG within Vue components
+          - Creating custom directives for animation
+          - Using in-out modes to create effective and reusable component composition
+          - Using Vue <transition> hooks for external javascript libraries
+          - Interpolating state for data visualization with watchers
+          - Integration of animation with routers for page transition
+        //- a.button(slot="ticket", disabled) Sold out
       talk(:talk="blakeWorkshop", :desc-flex="7")
         :markdown-it
           As an application grows, you will notice that components will share common code and state. Eventually as the application grows it can become more important to manage this state carefully, to improve maintainability, predictability and application flow.
@@ -45,19 +48,7 @@
           - Modularising a store
           - Composing actions (Promises and Async/Await)
           - Avoiding common pitfalls
-        a.button(slot="ticket", disabled) Sold out
-      talk(:talk="sarahWorkshop", :desc-flex="7")
-        :markdown-it
-          In one day of training, attendees will go from knowing nothing (or very little) about animating in Vue to creating complex effects in performant and visually stunning patterns. The web is more than a document reader, and Vue has unique offerings that make animations not only possible, but possible to do in an organized and state-managed manner.
-
-          What we'll go over is included but not limited to:
-          - Working with SVG within Vue components
-          - Creating custom directives for animation
-          - Using in-out modes to create effective and reusable component composition
-          - Using Vue <transition> hooks for external javascript libraries
-          - Interpolating state for data visualization with watchers
-          - Integration of animation with routers for page transition
-        a.button(slot="ticket", disabled) Sold out
+        //- a.button(slot="ticket", disabled) Sold out
 </template>
 
 <script>
@@ -65,7 +56,7 @@ import Talk from '../components/Talk'
 
 export default {
   head: {
-    title: 'VueConf 2017 | Workshops'
+    title: 'VueConf US 2018 | Workshops'
   },
   components: { Talk },
   data () {
@@ -95,7 +86,7 @@ export default {
             twitter: "https://twitter.com/blakenewman"
           }
         ],
-        authorInfo: "Software Engineer at Sainsbury’s",
+        authorInfo: "Software Engineer at Attest\nVue Core Team",
       },
       sarahWorkshop: {
         type: "talk",
@@ -108,7 +99,21 @@ export default {
             twitter: "https://twitter.com/sarah_edo"
           }
         ],
-        authorInfo: "Consultant",
+        authorInfo: "Senior Cloud Developer Advocate at Microsoft\nVue Core Team",
+      },
+      chrisWorkshop: {
+        type: "talk",
+        img: "/img/chris.jpg",
+        topic: "Vue.js Fundamentals",
+        author: "Chris Fritz",
+        social: [
+          {
+            github: "https://github.com/chrisvfritz",
+            twitter: "https://twitter.com/chrisvfritz",
+          }
+        ],
+        authorInfo: "Consultant\nVue Core Team",
+        description: "This full-day, hands-on workshop will get you coding a Vue.js application in no time! Vue.js is easy to get started with, and easy to build on! This workshop is lead by a member of the core Vue.js team."
       }
     }
   }

@@ -42,7 +42,7 @@ export default {
     }
   },
   head: {
-    title: 'VueConf 2017 | Summary'
+    title: 'VueConf US 2018 | Summary'
   },
 }
 </script>

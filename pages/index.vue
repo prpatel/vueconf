@@ -5,7 +5,13 @@ div
   .container
     .container__inner.section.post-section
       .cfp-video
-        <iframe width="520" height="292" src="https://www.youtube.com/embed/i9SK-l2gQEE?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+        iframe(
+          width="520"
+          height="292"
+          src="https://www.youtube.com/embed/i9SK-l2gQEE?rel=0&amp;showinfo=0"
+          frameborder="0"
+          allowfullscreen
+        )
       .cfp-content
         h1 Join the band!
         h4 Call for Papers Open Now
@@ -22,7 +28,7 @@ div
     //- newsletter-section
 
     sponsors-section
-    organizers-section
+    //- organizers-section
 </template>
 
 <script>
@@ -48,7 +54,7 @@ export default {
     VenueSection
   },
   head: {
-    title: 'VueConf 2017 – 21–23 June, 2017 in Wrocław, Poland'
+    title: 'VueConf US – March 26–28, 2018 in New Orleans, USA | Vue.js Conference'
   },
   data () {
     return {

@@ -6,13 +6,13 @@
 
 Whenever used in these Terms and Conditions (T&C), the following terms shall have the meaning defined hereinafter:
 
-1. **Conference** – VueConf 2017 and / or accompanying workshops.
+1. **Conference** – VueConf US 2018 and / or accompanying workshops.
 
 2. **Monterail** – Monterail.com Sp. z o.o. with its registered office in Wrocław, at 27-29 Oławska street, 50-123 Wrocław, Poland, registered with the Register of Entrepreneurs of the National Court Register maintained by the District Court of Wrocław-Fabryczna in Wrocław, VI Commercial Division of the National Court Register, under entry number KRS 0000357415, NIP 778-147-18-20, REGON 301447685, share capital 5.000 PLN, e-mail vueconf@monterail.com.
 
 3. **Website** – documents authorizing to participate in the Conference or an accompanying workshops, depending on the Ticket type.
 
-4. **Website** – official website of the VueConf 2017, available at www.conf.vuejs.org.
+4. **Website** – official website of the VueConf US 2018, available at www.conf.vuejs.org.
 
 ## § 2
 ### SALE OF TICKETS

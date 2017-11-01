@@ -10,17 +10,17 @@
 
     nav
       ul.navbar-nav(@click="toggle")
-        li.navbar-nav__item
-          nuxt-link(to="/speakers")
-            | Speakers
+        //- li.navbar-nav__item
+        //-   nuxt-link(to="/speakers")
+        //-     | Speakers
         li.navbar-nav__item
           nuxt-link(to="/workshops")
             | Workshops
+        //- li.navbar-nav__item
+        //-   nuxt-link(to="/schedule")
+        //-     | Schedule
         li.navbar-nav__item
-          nuxt-link(to="/schedule")
-            | Schedule
-        li.navbar-nav__item
-          nuxt-link(to="/guide")
+          nuxt-link(to="/call-for-papers")
             | Call for Papers
         li.navbar-nav__item
           a.button(href="https://tickets.connectevents.io/events/vueconfus/")
@@ -77,7 +77,8 @@
     justify-content: space-between
 
   .navbar__logo
-    background-image: url('~assets/vueconf_logo.svg')
+    // TODO: Provide logo
+    // background-image: url('~assets/vueconf_logo.svg')
     background-size: contain
     background-repeat: no-repeat
     width: 260px

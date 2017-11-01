@@ -12,16 +12,16 @@
 
       Monterail – Monterail.com Sp. z o.o. with its registered office in Wrocław, at 27-29 Oławska street, 50-123 Wrocław, Poland, registered with the Register of Entrepreneurs of the National Court Register maintained by the District Court of Wrocław-Fabryczna in Wrocław, VI Commercial Division of the National Court Register, under entry number KRS 0000357415, NIP 778-147-18-20, REGON 301447685, share capital 5.000 PLN, e-mail vueconf@monterail.com.
 
-      Website – official website of the VueConf 2017, available at [conf.vuejs.org](https://conf.vuejs.org/).
+      Website – official website of the VueConf US 2018, available at [conf.vuejs.org](https://conf.vuejs.org/).
 
       ## § 2
       ### PERSONAL DATA
 
       Monterail is the personal data controller of data collected through the Website, within the meaning of act of August 29, 1997 on the Protection of Personal Data (unified text – Journal of Laws of 2016, item 922).
 
-      When you visit the Website and use its functionalities, such as subscribing to the Vue.js Newsletter, or buying tickets to the VueConf 2017, some data, including personal data within the meaning of act on the Protection of Personal Data, are being collected and processed by Monterail.
+      When you visit the Website and use its functionalities, such as subscribing to the Vue.js Newsletter, or buying tickets to the VueConf US 2018, some data, including personal data within the meaning of act on the Protection of Personal Data, are being collected and processed by Monterail.
 
-      For the purpose of sale of tickets to the VueConf 2017, Monterail processes data set out in registration form (e.g. name, VAT ID, email, address, postal code, city, country), as well as information necessary to fulfill the payment process (e.g. credit card number).
+      For the purpose of sale of tickets to the VueConf US 2018, Monterail processes data set out in registration form (e.g. name, VAT ID, email, address, postal code, city, country), as well as information necessary to fulfill the payment process (e.g. credit card number).
 
       Upon your subscription, Monterail processes your personal data for the purpose of sending you the Vue.js Newsletter.
 
@@ -65,7 +65,7 @@
 <script>
 export default {
   head: {
-    title: 'VueConf 2017 | Private Policy'
+    title: 'VueConf US 2018 | Private Policy'
   }
 }
 </script>

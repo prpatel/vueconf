@@ -20,7 +20,7 @@ import speakers from '../content/speakers/speaker-list'
 
 export default {
   head: {
-    title: 'VueConf 2017 | Speakers'
+    title: 'VueConf US 2018 | Speakers'
   },
   components: { SpeakersList },
   data () {

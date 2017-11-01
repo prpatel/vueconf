@@ -1,6 +1,6 @@
 # vueconf2
 
-> VueConf 2017
+> VueConf US 2018
 
 ## Build Setup
 

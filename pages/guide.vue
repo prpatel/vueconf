@@ -88,7 +88,7 @@ export default {
     Hint
   },
   head: {
-    title: 'VueConf 2017 | Guide'
+    title: 'VueConf US 2018 | Guide'
   },
   data () {
     return {
