@@ -4,7 +4,7 @@
     :markdown-it
       # Call for Papers Guidelines
 
-      ### The VueConf.US 2018 call for proposals is now open, and closes December 1.
+      ### The VueConf.US 2018 call for proposals is now closed.
 
       **Before submitting a talk, please review these guidelines.**
 
