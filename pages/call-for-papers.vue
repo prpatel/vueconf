@@ -39,20 +39,12 @@
 
     h3 Instructions for the Call for Papers Application
 
-    .center
-      a.button(
-        href="https://cfp.connectevents.io/en/vueus2018/cfp/session/new",
-        target="_BLANK"
-      )
-        | Submit a session
-
-
     .step
       .half
         img(src="~assets/img/cfp0.png")
       .half
         h4 Step 1
-        p While creating your profile, be sure to fill in these sections. The 'avatar' is your photo!
+        p While creating your profile, be sure to fill in these sections.
     .step
       .half
         img(src="~assets/img/cfp3.png")
@@ -61,16 +53,25 @@
         p This CFP system calls a presentation/session an EVENT. Create a new one for each of your proposed talks.
     .step
       .half
-        img(src="~assets/img/cfp2.png")
+        img(src="~assets/img/cfp1.png")
       .half
         h4 Step 3
         p Set Event Type to lecture. Be sure to pick the correct topic area/track also.
     .step
       .half
-        img(src="~assets/img/cfp1.png")
+        img(src="~assets/img/cfp2.png")
       .half
         h4 Step 4
         p Finally, set your availability for presenting. We can not guarantee we will be able to fit your availability, but we'll do our best.
+
+    br
+    .center
+      a.button(
+        href="https://cfp.connectevents.io/en/vueus2018/cfp/session/new",
+        target="_BLANK"
+      )
+        | Submit a session
+
 </template>
 <script>
 export default {

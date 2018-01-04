@@ -2,21 +2,20 @@
 .section.post-section.cfp-section
   .cfp-video
     iframe(
-      width="520"
-      height="292"
+      width="400"
+      height="270"
       src="https://www.youtube.com/embed/i9SK-l2gQEE?rel=0&amp;showinfo=0"
       frameborder="0"
       allowfullscreen
     )
+
   .cfp-content
     h1 Join the band!
-    h4 Call for Papers Open Now
+    h4 Explore everything about Vue.js with speakers and attendees from all over!
 
-    p We're looking for submissions on all things Vue.js!
+    p We are working on selecting the best presentations, full program announced on December 15. Workshop details available below!
 
-    .center
-      nuxt-link(to="/schedule")
-        button.button.speaker-button Apply as a speaker
+
   //- .nav-target#apply
   //- .center
   //-   include:markdown-it ../content/speakers/cfp.md
@@ -51,7 +50,7 @@ export default {
 
 .cfp-content
   display: inline-block
-  max-width: 100%
+  max-width: 90%
   vertical-align: middle
   text-align: left
 

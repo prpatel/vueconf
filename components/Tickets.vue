@@ -14,7 +14,7 @@
       .ticket__price
         a.button.button--dark(
           :disabled="ticket.disabled"
-          href="https://events.zippydesk.com/vueconf-2017/register",
+          href="https://tickets.connectevents.io/events/vueconfus/",
           @click="trackTicketsEvent"
         )
           | {{ ticket.price }}

@@ -7,7 +7,7 @@
     speakers-list(:speakers="workshops", :adjust-img-url="true")
 
     .center
-      nuxt-link(to="/schedule")
+      nuxt-link(to="/workshops")
         button.button.speaker-button Read the workshop details
 </template>
 

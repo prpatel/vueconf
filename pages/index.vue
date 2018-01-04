@@ -4,11 +4,16 @@ div
 
   .container
     SubmitTalks
-    //- .container__inner.section.post-section
-      //- TODO: Uncomment when there are speakers
-      //- speakers-list(:speakers="speakers")
     tickets-section#tickets
     workshops-section
+    .container__inner.section.post-section
+          //- TODO: Uncomment when there are speakers
+          h1 Presentations
+          speakers-list(:speakers="speakers")
+    .container__inner.section.post-section
+            h1 Lightning Talks!
+                h2 Get involved with VueConf.US! This is your chance to do an 8 minute presentation on your favorite Vue.js (or other) topic!
+                h3 Lightning talks will be on both days of the main conference, and all are encouraged to present!
     venue-section
     //- newsletter-section
     sponsors-section

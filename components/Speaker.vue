@@ -7,14 +7,15 @@
         .speaker__aside
           .speaker__title
             | {{ speaker.name }}
-          .speaker__subtitle
-            | {{ speaker.title }}
+          .speaker__sessionTitle
+            | {{ speaker.sessionTitle }}
+          .speaker__sessionAbstract
+            | {{ speaker.sessionAbstract}}
           .speaker__social
-            a.icon.icon--github(v-if="speaker.github", :href="speaker.github" target="_blank")
-            a.icon.icon--gitlab(v-if="speaker.gitlab", :href="speaker.gitlab" target="_blank")
+          //  a.icon.icon--github(v-if="speaker.github", :href="speaker.github" target="_blank")
             a.icon.icon--twitter(v-if="speaker.twitter", :href="speaker.twitter" target="_blank")
         .speaker__bio
-          | {{ speaker.bio }}
+          | {{ speaker.title }}
         blockquote.speaker__quote(v-if="speaker.quote")
           | {{ speaker.quote }}
           cite {{ speaker.name }}
@@ -24,7 +25,7 @@
       .speaker__title
         | {{ speaker.name }}
       .speaker__subtitle
-        | {{ speaker.title }}
+        | {{ speaker.sessionTitle }}
       .speaker__social
         a.icon.icon--gitlab(@click.stop="", v-if="speaker.gitlab", :href="speaker.gitlab" target="_blank")
         a.icon.icon--github(@click.stop="", v-if="speaker.github", :href="speaker.github" target="_blank")
@@ -95,6 +96,7 @@ export default {
 .speaker
   position: absolute
   width: 100%
+  height: 130px
   @include card
 
 .speaker__image
@@ -129,8 +131,26 @@ export default {
   @media #{$medium-up}
     font-size: 18px
 
+.speaker__sessionTitle
+  font-size: 20px
+  font-weight: 300
+  color: #495669
+  word-break: break-words
+  white-space: pre-line
+  margin-bottom: 10px
+  margin-top: 10px
+
+  .speaker__sessionAbstract
+    font-size: 12px
+    font-weight: 300
+    color: #495669
+    word-break: break-words
+    white-space: pre-line
+    margin-bottom: 30px
+    margin-top: 10px
+
 .speaker__subtitle
-  font-size: 14px
+  font-size: 12px
   font-weight: 300
   color: #8795a9
   word-break: break-words

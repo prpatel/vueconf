@@ -2,6 +2,7 @@
 .navbar(:class="isOpen && 'open'")
   .navbar__container
     nuxt-link.navbar__logo(to="/")
+    //object(type="image/svg+xml" data="~assets/vuelogo.svg")
 
     button.navbar__burger(type="button", @click="toggle")
         .bar
@@ -19,9 +20,7 @@
         //- li.navbar-nav__item
         //-   nuxt-link(to="/schedule")
         //-     | Schedule
-        li.navbar-nav__item
-          nuxt-link(to="/call-for-papers")
-            | Call for Papers
+
         li.navbar-nav__item
           a.button(href="https://tickets.connectevents.io/events/vueconfus/")
             | Register
@@ -78,7 +77,7 @@
 
   .navbar__logo
     // TODO: Provide logo
-    // background-image: url('~assets/vueconf_logo.svg')
+    background-image: url('~assets/vuelogo.svg')
     background-size: contain
     background-repeat: no-repeat
     width: 260px

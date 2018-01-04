@@ -6,7 +6,7 @@
       h2.hero-banner__subheader
         strong Sheraton New Orleans
         br
-        | LA, USA • March 26-28, 2018
+        | USA • March 26-28, 2018
       h1.hero-banner__tagline Music. Food. Vue.
       h2.hero-banner__subheader.hero-banner__subheader--last
         strong Workshop day:

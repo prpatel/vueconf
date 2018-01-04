@@ -8,7 +8,7 @@ footer.footer
           | Twitter:
           = ' '
           a(href="https://twitter.com/vueconfus" target="_blank")
-            span.at VueConf.US
+            span.at VueConfUS
         li
           | Email:
           a  hello

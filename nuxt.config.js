@@ -23,8 +23,8 @@ module.exports = {
       { property: 'og:description', content: 'Official Vue.js Conference USA' },
       { property: 'og:image', content: 'img/cover.png' },
       { property: 'twitter:card', content: 'summary_large_image' },
-      { property: 'twitter:site', content: '@vueconf' },
-      { property: 'twitter:image', content: 'http://conf.vuejs.org/img/cover.png' },
+      { property: 'twitter:site', content: '@vueconfus' },
+      { property: 'twitter:image', content: 'http://vueconf.us/img/cover/vuesplash.png' },
       { property: 'twitter:title', content: 'VueConf US 2018 – March 26–28, 2018 in New Orleans, USA | Vue.js Conference' },
       { property: 'twitter:description', content: 'Official Vue.js Conference USA' },
       { name: 'format-detection', content: 'telephone=no' },
@@ -34,6 +34,7 @@ module.exports = {
       { rel: 'icon', type: 'image/x-icon', href: '/img/logo-48.png' },
       { rel: 'manifest', href: '/manifest.json' },
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600&amp;subset=latin-ext' },
+      { rel: 'canonical', href: 'http://us.vuejs.org' },
     ],
     script: [
       { type: 'text/javascript', src: '/sw.js' }
