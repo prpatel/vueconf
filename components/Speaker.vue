@@ -14,9 +14,9 @@
           .speaker__social
           //  a.icon.icon--github(v-if="speaker.github", :href="speaker.github" target="_blank")
             a.icon.icon--twitter(v-if="speaker.twitter", :href="speaker.twitter" target="_blank")
-        .speaker__bio
-          | {{ speaker.title }}
-        blockquote.speaker__quote(v-if="speaker.quote")
+      .speaker__bio
+        | {{ speaker.title}}
+    blockquote.speaker__quote(v-if="speaker.quote")
           | {{ speaker.quote }}
           cite {{ speaker.name }}
   .speaker(@click="showDetails")
@@ -210,13 +210,12 @@ export default {
     margin-top: 10px
 
   .icon--twitter
-    margin-left: 15px
+    margin-left: 0px
 
 .speaker
   .button-secondary
     position: absolute
     right: 10px
-    bottom: 10px
 
   .button-secondary,
     display: none

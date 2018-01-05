@@ -35,11 +35,4 @@ h2
   text-align: center
   z-index: 2
 
-.cfp-section
-  border-top: 1px solid #ddd
-  padding-top: 60px
-
-.speaker-button
-  margin-top: 30px
-  margin-bottom: 40px
 </style>

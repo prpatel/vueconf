@@ -103,4 +103,18 @@ export default [{
     "twitter": "https://twitter.com/johnlindquist",
     "sessionTitle": "vue-rx",
     "sessionAbstract": "Vue.js ships with a built-in reactive system to help easily manage data and state throughout your app, but RxJS streams allow you to control complex async situations through streams. This lecture will cover how Vue.js integrates with RxJS and walks through the common problems taking this approach can solve."
+}, {
+    "img": "https://cfp.connectevents.io/system/avatars/1107/large/499550.jpeg?1515104079",
+    "name": "Evan You",
+    "title": "Creator of Vue.js ",
+    "twitter": "https://twitter.com/youyuxi",
+    "sessionTitle": "Lightning Talks Day 1",
+    "sessionAbstract": "Get involved with VueConf.US! This is your chance to do an 8 minute presentation on your favorite Vue.js (or other) topic!"
+}, {
+    "img": "https://cfp.connectevents.io/system/avatars/1107/large/499550.jpeg?1515104079",
+    "name": "Evan You",
+    "title": "Creator of Vue.js ",
+    "twitter": "https://twitter.com/youyuxi",
+    "sessionTitle": "Lightning Talks Day 2",
+    "sessionAbstract": "Get involved with VueConf.US! This is your chance to do an 8 minute presentation on your favorite Vue.js (or other) topic!"
 }]
