@@ -4,29 +4,46 @@
     .nav-target#tickets
     h1 Tickets
     p
-      | Early bird registration is $695 and is limited to the first 100 tickets!
-      br
-      | Does not include a workshop ticket.
-    .ticket(v-for="ticket in tickets")
+      | Regular tickets available January 15 - February 12
+    .ticket(v-for="ticket2 in tickets2")
       span
-        span.ticket__name {{ ticket.name }}
-        span.ticket__date {{ ticket.date }}
+        span.ticket__name {{ ticket2.name }}
+        span.ticket__date {{ ticket2.date }}
       .ticket__price
         a.button.button--dark(
-          :disabled="ticket.disabled"
+          :disabled="ticket2.disabled"
           href="https://tickets.connectevents.io/events/vueconfus/",
           @click="trackTicketsEvent"
         )
-          | {{ ticket.price }}
+          | {{ ticket2.price }}
+    br
+    p
+      | Late tickets available February 12 - March 12
+    .ticket--disabled(v-for="ticket2 in tickets3")
+      span
+        span.ticket__name {{ ticket2.name }}
+        span.ticket__date {{ ticket2.date }}
+      .ticket__price
+        a.button.button--dark(
+          :disabled="ticket2.disabled"
+          href="https://tickets.connectevents.io/events/vueconfus/",
+          @click="trackTicketsEvent"
+        )
+          | {{ ticket2.price }}
+
 </template>
 
 <script>
 import tickets from '../content/tickets'
+import tickets2 from '../content/tickets2'
+import tickets3 from '../content/tickets3'
 
 export default {
   data () {
     return {
-      tickets
+      tickets: tickets,
+        tickets2: tickets2,
+        tickets3: tickets3,
     }
   },
   methods: {
@@ -69,6 +86,25 @@ export default {
   text-align: left
   max-width: 700px
   background: #fff
+  margin-bottom: 20px
+  border-radius: 5px
+  padding: 15px
+  text-align: center
+
+  @media #{$medium-up}
+    text-align: left
+    padding: 7px 7px 7px 40px
+    border-radius: 50px
+    display: flex
+    justify-content: space-between
+
+    .button--dark
+      margin-top: 0
+.ticket--disabled
+  margin: 0 auto
+  text-align: left
+  max-width: 700px
+  background: #000
   margin-bottom: 20px
   border-radius: 5px
   padding: 15px

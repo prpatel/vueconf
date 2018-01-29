@@ -18,7 +18,7 @@
         .event__author-container(v-if="event.author")
           div
             .event__author {{ event.author }}
-            .event__author-info {{ event.authorInfo }}
+            //- .event__author-info {{ event.authorInfo }}
           .event__social__container
             .event__social(v-for="social of event.social")
               a.icon.icon--github(v-if="social.github", :href="social.github" target="_blank")

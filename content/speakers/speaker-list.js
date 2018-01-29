@@ -41,12 +41,12 @@ export default [{
     "sessionTitle": "Testing Vue apps",
     "sessionAbstract": "In this talk I'll explain how to structure a test suite, and how to write effective unit tests for Vue components."
 }, {
-    "img": "https://cfp.connectevents.io/system/avatars/1046/large/zRA6JKZa_400x400.jpg?1513281300",
-    "name": "Erin Depew",
-    "title": "Erin Depew is a software engineer at Behance in New York. ",
-    "twitter": "https://twitter.com/erindepew",
-    "sessionTitle": "A Short Synopsis of Vue Storybook",
-    "sessionAbstract": "Styleguides are an important tool for development and design teams but they often have an underwhelming feature-set and are difficult to implement. Storybook is a lightweight styleguide generator that addresses these common issues and now supports Vue components. During this talk, we’ll present a brief overview of Vue Storybook: what it does, how it works, and why you would want to use it."
+    "img": "https://cfp.connectevents.io/system/avatars/953/large/AAEAAQAAAAAAAA1aAAAAJGE0ZWNiNzBlLWEwM2QtNDI4Yi1hOTBhLWY1MmFjZGU0MTUwZg.jpg?1516636786",
+    "name": "Peter Finn",
+    "title": "I'm a UI Engineer at SalesLoft, and the organizer of The Atlanta Vue.js Meetup. I work with AngularJS, React, and Vue.js at work and in my spare time, and I couldn't imagine doing anything else with my life. ",
+    "twitter": "https://twitter.com/",
+    "sessionTitle": "The Story of Vue.js and Storybook",
+    "sessionAbstract": "Building and documenting a component library at your company can be a huge hassle, but is a great way to keep your code consistent and clean among all of your projects. Storybook and Vue take most of the pain out of this, and allow you to develop a set of core components and document them in no time!"
 }, {
     "img": "https://cfp.connectevents.io/system/avatars/1107/large/499550.jpeg?1515104079",
     "name": "Evan You",

@@ -4,14 +4,38 @@
     .container__inner
       h1 Sponsors
       //- TODO: Fill this as needed when there are sponsors
-      //- .sponsors__container
-      //-   .div
-      //-     a(href="https://codeship.com/", target="_BLANK")
-      //-       img.sponsor__image(src="~assets/img/logo_codeship_colour.svg")
-      //-     a(href="https://www.nativescript.org/", target="_BLANK")
-      //-       img.sponsor__image(src="~assets/img/logo_native-script.svg")
-      //-     a(href="https://monaca.io/", target="_BLANK")
-      //-       img.sponsor__image(src="~assets/img/monaca-logo.svg")
+      .sponsors__container
+        .div
+          h2 GOLD
+          a(href="https://www.vehikl.com/", target="_BLANK")
+            img.sponsor__image(src="~assets/img/vehikl.png")
+          a(href="http://progress.com/", target="_BLANK")
+            img.sponsor__image(src="~assets/img/progress.png")
+          p
+          h2 SILVER
+          a(href="https://www.bugsnag.com/", target="_BLANK")
+            img.sponsor__image(src="~assets/img/bugsnag.png")
+          a(href="https://ionicframework.com/", target="_BLANK")
+            img.sponsor__image(src="~assets/img/ionic.png")
+          a(href="https://redventures.com/", target="_BLANK")
+            img.sponsor__image(src="~assets/img/redventures.png")
+
+          p
+          h2 HAPPY HOUR
+          a(href="https://www.netlify.com/", target="_BLANK")
+            img.sponsor__image(src="~assets/img/netlify.png")
+          a(href="https://www.bugsnag.com/", target="_BLANK")
+            img.sponsor__image(src="~assets/img/bugsnag.png")
+
+          p
+          h2 LANYARD
+          p
+            a(href="https://www.gitlab.com/", target="_BLANK")
+            img.sponsor__image(src="~assets/img/gitlab.png")
+          p
+          h2 VIDEO
+          a(href="http://vuemastery.com/", target="_BLANK")
+            img.sponsor__image(src="~assets/img/vuemastery.png")
 
       //- h2 Partners
       //- .sponsors__container
@@ -54,9 +78,9 @@ export default {
 
 .sponsor__image
   max-width: 90%
-  width: 280px
+  /*width: 280px*/
   height: auto
-  max-height: 100px
+  /*max-height: 100px*/
   margin: 0 20px 20px 20px
   vertical-align: middle
   display: inline-block

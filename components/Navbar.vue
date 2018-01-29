@@ -17,9 +17,9 @@
         li.navbar-nav__item
           nuxt-link(to="/workshops")
             | Workshops
-        //- li.navbar-nav__item
-        //-   nuxt-link(to="/schedule")
-        //-     | Schedule
+        li.navbar-nav__item
+           nuxt-link(to="/schedule")
+             | Schedule
 
         li.navbar-nav__item
           a.button(href="https://tickets.connectevents.io/events/vueconfus/")

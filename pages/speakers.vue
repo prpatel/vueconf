@@ -4,7 +4,7 @@
     h1
       | Speakers
 
-    speakers-list(:speakers="speakers", :adjust-img-url="true")
+    speakers-list(:speakers="speakers", :adjust-img-url="false")
 
     .center
       nuxt-link(to="/schedule")

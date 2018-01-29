@@ -1,0 +1,136 @@
+[
+  {
+    "startTime": "09:40",
+    "duration": "00:30",
+    "topic": "7 secret patterns Vue consultants don't want you to know",
+    "type": "talk",
+    "img": "https://cfp.connectevents.io/system/avatars/978/large/rMSXLIWW_400x400.jpg?1515104982",
+    "author": "Chris Fritz",
+    "authorInfo": "Educator/hacker working to make web dev simpler. Vue core team member and curator of our docs.",
+    "description": "As a Vue consultant and member of the core team, Chris will share some of the lesser-known features and patterns you can use to improve your apps and amaze your colleagues.",
+    "social": [
+      {
+        "twitter": "https://twitter.com/chrisvfritz"
+      }
+    ]
+  },
+  {
+    "startTime": "10:40",
+    "duration": "00:30",
+    "topic": "Agile Design Systems in Vue",
+    "type": "talk",
+    "img": "https://cfp.connectevents.io/system/avatars/1142/large/qhL5tFpp_400x400.jpg?1515105584",
+    "author": "Miriam Suzanne",
+    "authorInfo": "Miriam is a co-founder, project lead, and front-end engineer at OddBird, building applications used by Mozilla, The US Coast Guard, Ironman Championships, and more. She's the creator of several popular open source tools, including Susy, True, & Herman; author of SitePoint’s Jump Start Sass; and staff-writer for CSS Tricks.",
+    "description": "Style Guides & Pattern Libraries are great tools for documenting the relationships between code and UX, but beautiful docs are only half the battle. We don’t all have dedicated teams and budgets to build a centralized system. How can we build patterns into our code, using Vue components and pre-processors to iterate and automate living design systems in an agile and integrated process?",
+    "social": [
+      {
+        "twitter": "https://twitter.com/mirisuzanne"
+      }
+    ]
+  },
+  {
+    "startTime": "11:20",
+    "duration": "00:30",
+    "topic": "Vue & TypeScript: Up and Running",
+    "type": "talk",
+    "img": "https://cfp.connectevents.io/system/avatars/1076/large/VRXEjlf1_400x400.jpg?1515105011",
+    "author": "Daniel Rosenwasser",
+    "authorInfo": "Daniel Rosenwasser is a Program Manager on the TypeScript language at Microsoft. He’s long had a passion for programming languages, type systems, and open source. As part of his role, he’s been committed to ensuring that TypeScript works for JavaScript users universally and hearing out the needs of the community.",
+    "description": "One of TypeScript's goals is to make sure that JavaScript users of all communities can use the language. Over the last year, the TypeScript team has put effort in to making TypeScript & Vue work together much more seamlessly. Come find out a bit about that work, and how you can benefit from TypeScript today!",
+    "social": [
+      {
+        "twitter": "https://twitter.com/drosenwasser"
+      }
+    ]
+  },
+  {
+    "startTime": "12:00",
+    "duration": "00:30",
+    "topic": "A React Point of Vue",
+    "type": "talk",
+    "img": "https://cfp.connectevents.io/system/avatars/1123/large/divyakl.png?1513447976",
+    "author": "Divya Sasidharan",
+    "authorInfo": "Divya is a web developer who is passionate about open source and good documentation. She most recently made the switch from React to Vue and has slowly but surely grown to enjoy the Vue. You will most likely find her in the sunniest spot in the room with a cup of tea in hand and puns on hand.",
+    "description": "At a glance, React and Vue are like two peas in a pod. They are lightweight component-based libraries for building user interfaces and can be used fairly interchangeably to build scalable web applications. Though they are noticeably different in terms of syntax, their key differences lie in their respective ways of thinking. As a React developer learning Vue, adapting to the “Vue way of doing things” is a challenge that requires a sound understanding of the philosophy behind Vue. In this talk, we will examine the nuances between the two frameworks and cover common mistakes that React developers make when switching from React to Vue.",
+    "social": [
+      {
+        "twitter": "https://twitter.com/shortdiv"
+      }
+    ]
+  },
+  {
+    "startTime": "12:30",
+    "duration": "01:00",
+    "topic": "Lunch Day 2",
+    "type": "other",
+    "img": "/img/ic-happy.svg"
+  },
+  {
+    "startTime": "13:30",
+    "duration": "01:00",
+    "topic": "Lightning Talks Day 2",
+    "type": "talk",
+    "img": "https://cfp.connectevents.io/system/avatars/1107/large/499550.jpeg?1515104079",
+    "author": "Evan You",
+    "authorInfo": "Creator of Vue.js ",
+    "description": "Get involved with VueConf.US! This is your chance to do a 8 minute presentation on your favorite Vue.js (or other) topic!",
+    "social": [
+      {
+        "twitter": "https://twitter.com/youyuxi"
+      }
+    ]
+  },
+  {
+    "startTime": "15:00",
+    "duration": "00:30",
+    "topic": "Vue & SSR: The best practices",
+    "type": "talk",
+    "img": "https://cfp.connectevents.io/system/avatars/1012/large/s3X2zik8_400x400.jpg?1515104953",
+    "author": "Sebastien Chopin",
+    "authorInfo": "Creator of Nuxt.js & Community partner of Vue.js",
+    "description": "Writing an Universal Application with Vue might be hard, this talk will show common problems with server-side rendering and how to deal with them. It will also show how Nuxt.js solves most of these problems for you.",
+    "social": [
+      {
+        "twitter": "https://twitter.com/Atinux"
+      }
+    ]
+  },
+  {
+    "startTime": "15:40",
+    "duration": "00:30",
+    "topic": "A Short Synopsis of Vue Storybook",
+    "type": "talk",
+    "img": "https://cfp.connectevents.io/system/avatars/953/large/AAEAAQAAAAAAAA1aAAAAJGE0ZWNiNzBlLWEwM2QtNDI4Yi1hOTBhLWY1MmFjZGU0MTUwZg.jpg?1516636786",
+    "author": "Peter Finn",
+    "authorInfo": "I'm a UI Engineer at SalesLoft, and the organizer of The Atlanta Vue.js Meetup. I work with AngularJS, React, and Vue.js at work and in my spare time, and I couldn't imagine doing anything else with my life.",
+    "description": "Building and documenting a component library at your company can be a huge hassle, but is a great way to keep your code consistent and clean among all of your projects. Storybook and Vue take most of the pain out of this, and allow you to develop a set of core components and document them in no time!",
+    "social": [
+      {
+        "twitter": "https://twitter.com/"
+      }
+    ]
+  },
+  {
+    "startTime": "16:30",
+    "duration": "00:30",
+    "topic": "Prototyping with Vue Single File Component",
+    "type": "talk",
+    "img": "https://cfp.connectevents.io/system/avatars/1105/large/avatar.jpeg?1512371688",
+    "author": "Pine Wu",
+    "authorInfo": "Software engineer working on VS Code.\r\nMade Vetur: https://github.com/vuejs/vetur.",
+    "description": "With a compact templating syntax and rich support for major web languages, Vue Single File Component is ideal for sketching out UI components, animation, interaction prototypes and data visualization. In this talk, I present a mini Vue SFC based framework that prescribes setup, languages and coding styles in exchange for the best prototyping experience.",
+    "social": [
+      {
+        "twitter": "https://twitter.com/octref"
+      }
+    ]
+  },
+  {
+    "startTime": "17:00",
+    "duration": "01:00",
+    "topic": "Closing ceremonies, Prizes, and Conference after party!",
+    "type": "other",
+    "img": "/img/ic-happy.svg"
+  }
+]

@@ -10,6 +10,7 @@ div
           //- TODO: Uncomment when there are speakers
           h1 Presentations
           speakers-list(:speakers="speakers")
+    lightning-section
     venue-section
     //- newsletter-section
     sponsors-section
@@ -26,6 +27,7 @@ import SubmitTalks from '@/components/SubmitTalks'
 import TicketsSection from '@/components/Tickets'
 import VenueSection from '@/components/Venue'
 import WorkshopsSection from '@/components/Workshops'
+import LightningSection from '@/components/Lightning'
 import speakers from '../content/speakers/speaker-list'
 
 export default {
@@ -38,7 +40,8 @@ export default {
     SubmitTalks,
     TicketsSection,
     VenueSection,
-    WorkshopsSection
+    WorkshopsSection,
+    LightningSection
   },
   head: {
     title: 'VueConf US – March 26–28, 2018 in New Orleans, USA | Vue.js Conference'
