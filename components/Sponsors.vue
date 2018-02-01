@@ -6,6 +6,10 @@
       //- TODO: Fill this as needed when there are sponsors
       .sponsors__container
         .div
+          h2 PLATINUM
+          a(href="https://www.rangle.io/", target="_BLANK")
+            img.sponsor__image(src="~assets/img/rangle.png")
+          p
           h2 GOLD
           a(href="https://www.vehikl.com/", target="_BLANK")
             img.sponsor__image(src="~assets/img/vehikl.png")
@@ -27,15 +31,20 @@
           a(href="https://www.bugsnag.com/", target="_BLANK")
             img.sponsor__image(src="~assets/img/bugsnag.png")
 
+          h2 VIDEO
+          a(href="http://vuemastery.com/", target="_BLANK")
+            img.sponsor__image(src="~assets/img/vuemastery.png")
           p
           h2 LANYARD
           p
             a(href="https://www.gitlab.com/", target="_BLANK")
             img.sponsor__image(src="~assets/img/gitlab.png")
           p
-          h2 VIDEO
-          a(href="http://vuemastery.com/", target="_BLANK")
-            img.sponsor__image(src="~assets/img/vuemastery.png")
+          h2 NAME BADGE
+          p
+            a(href="https://www.cloudinary.com/", target="_BLANK")
+            img.sponsor__image(src="~assets/img/cloudinary.png")
+          p
 
       //- h2 Partners
       //- .sponsors__container

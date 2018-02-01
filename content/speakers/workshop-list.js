@@ -1,7 +1,7 @@
 export default [
   {
     "name": "Evan You",
-    "title": "Advanced Features from the Ground Up",
+    "title": "(SOLD OUT) Advanced Features from the Ground Up",
     "img": "img/evan.jpg",
     "github": "https://github.com/yyx990803",
     "twitter": "https://twitter.com/youyuxi",
@@ -30,7 +30,7 @@ export default [
   },
   {
     "name": "Chris Fritz",
-    "title": "Vue.js Fundamentals",
+    "title": "In this workshop, we'll cover everything you need to know to get started building world-class Vue applications. Topics will include configuring Webpack for single-file components, setting up the most advanced workflows currently possible, how to organize (and reorganize) increasingly complex applications, and more.",
     "img": "img/chris.jpg",
     "github": "https://github.com/chrisvfritz",
     "twitter": "https://twitter.com/chrisvfritz",

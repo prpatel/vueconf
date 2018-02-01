@@ -1,24 +1,17 @@
 export default [{
-    "img": "https://cfp.connectevents.io/system/avatars/1107/large/499550.jpeg?1515104079",
-    "name": "Evan You",
-    "title": "Creator of Vue.js ",
-    "twitter": "https://twitter.com/youyuxi",
-    "sessionTitle": "Opening Keynote",
-    "sessionAbstract": "Opening Keynote by the creator of Vue.js, Evan You!"
-}, {
-    "img": "https://cfp.connectevents.io/system/avatars/1151/large/97cssCek_400x400.jpg?1513436066",
-    "name": "Sarah Drasner",
-    "title": "Sarah Drasner is an award-winning Speaker, Senior Developer Advocate at Microsoft, and Staff Writer at CSS-Tricks. Sarah is also the co-founder of Web Animation Workshops, with Val Head. She’s the author of SVG Animations from O’Reilly and has given Frontend Masters workshops on Vue.js and Advanced SVG Animations. Sarah is formerly Manager of UX Design & Engineering at Trulia (Zillow).",
-    "twitter": "https://twitter.com/@sarah_edo",
-    "sessionTitle": "Serverless Functions and Vue.js",
-    "sessionAbstract": ""
+    "img": "https://cfp.connectevents.io/system/avatars/1159/large/blake.jpg?1515449951",
+    "name": "Blake Newman",
+    "title": "Frontend Engineer, Speaker and @vuejs core team member. Ensuring maintainable, modular and performance code based on Sacrificial Architecture principles.\r\n\r\n",
+    "twitter": "https://twitter.com/",
+    "sessionTitle": "Application state with Vuex",
+    "sessionAbstract": "As an application grows, you will notice that components will share common code and state. Eventually as the application grows it can become more important to manage this state carefully, to improve maintainability, predictability and application flow.\r\n\r\nVuex, is inspired by elm. It is not only a library but a state management pattern. Introducing these patterns, improves the overall application flow and creates a centralised state. However, it is easy to go overboard with state managment; thus we will look at a full range of best practices to ensure you can make the most of Vuex.\r\n\r\nSchedule:\r\n\r\nWhat is Vuex?\r\nLooking at state management patterns\r\nDetermining application state from local state\r\nUsing Actions, Mutations and Getters\r\nModularising a store\r\nComposing actions (Promises and Async/Await)\r\nAvoiding common pitfalls"
 }, {
     "img": "https://cfp.connectevents.io/system/avatars/978/large/rMSXLIWW_400x400.jpg?1515104982",
     "name": "Chris Fritz",
     "title": "Educator/hacker working to make web dev simpler. Vue core team member and curator of our docs.",
     "twitter": "https://twitter.com/chrisvfritz",
-    "sessionTitle": "Proven patterns for building Vue apps",
-    "sessionAbstract": "In this workshop, we'll cover everything you need to know to get started building world-class Vue applications. Topics will include configuring Webpack for single-file components, setting up the most advanced workflows currently possible, how to organize (and reorganize) increasingly complex applications, and more."
+    "sessionTitle": "7 secret patterns Vue consultants don't want you to know",
+    "sessionAbstract": "As a Vue consultant and member of the core team, Chris will share some of the lesser-known features and patterns you can use to improve your apps and amaze your colleagues."
 }, {
     "img": "https://cfp.connectevents.io/system/avatars/1076/large/VRXEjlf1_400x400.jpg?1515105011",
     "name": "Daniel Rosenwasser",
@@ -41,33 +34,19 @@ export default [{
     "sessionTitle": "Testing Vue apps",
     "sessionAbstract": "In this talk I'll explain how to structure a test suite, and how to write effective unit tests for Vue components."
 }, {
-    "img": "https://cfp.connectevents.io/system/avatars/953/large/AAEAAQAAAAAAAA1aAAAAJGE0ZWNiNzBlLWEwM2QtNDI4Yi1hOTBhLWY1MmFjZGU0MTUwZg.jpg?1516636786",
-    "name": "Peter Finn",
-    "title": "I'm a UI Engineer at SalesLoft, and the organizer of The Atlanta Vue.js Meetup. I work with AngularJS, React, and Vue.js at work and in my spare time, and I couldn't imagine doing anything else with my life. ",
-    "twitter": "https://twitter.com/",
-    "sessionTitle": "The Story of Vue.js and Storybook",
-    "sessionAbstract": "Building and documenting a component library at your company can be a huge hassle, but is a great way to keep your code consistent and clean among all of your projects. Storybook and Vue take most of the pain out of this, and allow you to develop a set of core components and document them in no time!"
+    "img": "https://cfp.connectevents.io/system/avatars/1046/large/zRA6JKZa_400x400.jpg?1513281300",
+    "name": "Erin Depew",
+    "title": "Erin Depew is a software engineer at Behance in New York. ",
+    "twitter": "https://twitter.com/erindepew",
+    "sessionTitle": "A Short Synopsis of Vue Storybook",
+    "sessionAbstract": "Styleguides are an important tool for development and design teams but they often have an underwhelming feature-set and are difficult to implement. Storybook is a lightweight styleguide generator that addresses these common issues and now supports Vue components. During this talk, we’ll present a brief overview of Vue Storybook: what it does, how it works, and why you would want to use it."
 }, {
     "img": "https://cfp.connectevents.io/system/avatars/1107/large/499550.jpeg?1515104079",
     "name": "Evan You",
     "title": "Creator of Vue.js ",
     "twitter": "https://twitter.com/youyuxi",
-    "sessionTitle": "Vue.js Core Team Panel",
-    "sessionAbstract": "Meet the Vue.js Core Team and ask them your questions!"
-}, {
-    "img": "https://cfp.connectevents.io/system/avatars/1134/large/rachel-nabors.jpg?1515104910",
-    "name": "Rachel Nabors",
-    "title": "Rachel Nabors has advocated for interaction designers and developers with the W3C, Mozilla, and Microsoft. She founded the Animation at Work community and weekly newsletter. Recently she wrote an A Book Apart book about how to use all these awesome new animation features to make even better user interfaces.",
-    "twitter": "https://twitter.com/RachelNabors",
-    "sessionTitle": "Vue in Motion",
-    "sessionAbstract": "Learning a JavaScript framework can look intimidating if you come from a traditional design background. But Vue has some of the best features for designing with motion. Come see how to translate your motion design into Vue-powered prototypes!"
-}, {
-    "img": "https://cfp.connectevents.io/system/avatars/1012/large/s3X2zik8_400x400.jpg?1515104953",
-    "name": "Sebastien Chopin",
-    "title": "Creator of Nuxt.js & Community partner of Vue.js",
-    "twitter": "https://twitter.com/Atinux",
-    "sessionTitle": "Vue & SSR: The best practices",
-    "sessionAbstract": "Writing an Universal Application with Vue might be hard, this talk will show common problems with server-side rendering and how to deal with them. It will also show how Nuxt.js solves most of these problems for you."
+    "sessionTitle": "Advanced Features from the Ground Up",
+    "sessionAbstract": "Advanced Features from the Ground Up"
 }, {
     "img": "https://cfp.connectevents.io/system/avatars/1059/large/GreggPollack-Square-New.jpg?1513615639",
     "name": "Gregg Pollack",
@@ -75,13 +54,6 @@ export default [{
     "twitter": "https://twitter.com/greggpollack",
     "sessionTitle": "Deciphering You",
     "sessionAbstract": "It’s one thing to understand how to use a framework, and quite another to understand how it works beneath the surface.  In this talk we’ll take a deep dive under the covers to begin to understand how Evan You (and the core team) put it all together.  "
-}, {
-    "img": "https://cfp.connectevents.io/system/avatars/1142/large/qhL5tFpp_400x400.jpg?1515105584",
-    "name": "Miriam Suzanne",
-    "title": "Miriam is a co-founder, project lead, and front-end engineer at OddBird, building applications used by Mozilla, The US Coast Guard, Ironman Championships, and more. She's the creator of several popular open source tools, including Susy, True, & Herman; author of SitePoint’s Jump Start Sass; and staff-writer for CSS Tricks.",
-    "twitter": "https://twitter.com/mirisuzanne",
-    "sessionTitle": "Agile Design Systems in Vue",
-    "sessionAbstract": "Style Guides & Pattern Libraries are great tools for documenting the relationships between code and UX, but beautiful docs are only half the battle. We don’t all have dedicated teams and budgets to build a centralized system. How can we build patterns into our code, using Vue components and pre-processors to iterate and automate living design systems in an agile and integrated process?"
 }, {
     "img": "https://cfp.connectevents.io/system/avatars/1016/large/jacobschatz.jpg?1510619506",
     "name": "Jacob Schatz",
@@ -104,17 +76,45 @@ export default [{
     "sessionTitle": "vue-rx",
     "sessionAbstract": "Vue.js ships with a built-in reactive system to help easily manage data and state throughout your app, but RxJS streams allow you to control complex async situations through streams. This lecture will cover how Vue.js integrates with RxJS and walks through the common problems taking this approach can solve."
 }, {
-    "img": "https://cfp.connectevents.io/system/avatars/1107/large/499550.jpeg?1515104079",
-    "name": "Evan You",
-    "title": "Creator of Vue.js ",
-    "twitter": "https://twitter.com/youyuxi",
-    "sessionTitle": "Lightning Talks Day 1",
-    "sessionAbstract": "Get involved with VueConf.US! This is your chance to do an 8 minute presentation on your favorite Vue.js (or other) topic!"
+    "img": "https://cfp.connectevents.io/system/avatars/1142/large/qhL5tFpp_400x400.jpg?1515105584",
+    "name": "Miriam Suzanne",
+    "title": "Miriam is a co-founder, project lead, and front-end engineer at OddBird, building applications used by Mozilla, The US Coast Guard, Ironman Championships, and more. She's the creator of several popular open source tools, including Susy, True, & Herman; author of SitePoint’s Jump Start Sass; and staff-writer for CSS Tricks.",
+    "twitter": "https://twitter.com/mirisuzanne",
+    "sessionTitle": "Agile Design Systems in Vue",
+    "sessionAbstract": "Style Guides & Pattern Libraries are great tools for documenting the relationships between code and UX, but beautiful docs are only half the battle. We don’t all have dedicated teams and budgets to build a centralized system. How can we build patterns into our code, using Vue components and pre-processors to iterate and automate living design systems in an agile and integrated process?"
 }, {
-    "img": "https://cfp.connectevents.io/system/avatars/1107/large/499550.jpeg?1515104079",
-    "name": "Evan You",
-    "title": "Creator of Vue.js ",
-    "twitter": "https://twitter.com/youyuxi",
-    "sessionTitle": "Lightning Talks Day 2",
-    "sessionAbstract": "Get involved with VueConf.US! This is your chance to do an 8 minute presentation on your favorite Vue.js (or other) topic!"
+    "img": "https://cfp.connectevents.io/system/avatars/953/large/0.jpeg?1517237687",
+    "name": "Peter Finn",
+    "title": "I am a positive thinking, self starting software developer who dreams in JavaScript and someday hopes to actually know the best way to architect his CSS. I have a passion for \"Front-End\" web development and single page apps, and love to explore new technologies that push the bleeding edge of what a web browser is capable of.",
+    "twitter": "https://twitter.com/",
+    "sessionTitle": "The Story of Vue.js and Storybook",
+    "sessionAbstract": "Building and documenting a component library at your company can be a huge hassle, but is a great way to keep your code consistent and clean among all of your projects. Storybook and Vue take most of the pain out of this, and allow you to develop a set of core components and document them in no time!"
+}, {
+    "img": "https://cfp.connectevents.io/system/avatars/1105/large/avatar.jpeg?1512371688",
+    "name": "Pine Wu",
+    "title": "Software engineer working on VS Code.\r\nMade Vetur: https://github.com/vuejs/vetur.",
+    "twitter": "https://twitter.com/octref",
+    "sessionTitle": "Prototyping with Vue Single File Component",
+    "sessionAbstract": "With a compact templating syntax and rich support for major web languages, Vue Single File Component is ideal for sketching out UI components, animation, interaction prototypes and data visualization. In this talk, I present a mini Vue SFC based framework that prescribes setup, languages and coding styles in exchange for the best prototyping experience."
+}, {
+    "img": "https://cfp.connectevents.io/system/avatars/1134/large/rachel-nabors.jpg?1515104910",
+    "name": "Rachel Nabors",
+    "title": "Rachel Nabors has advocated for interaction designers and developers with the W3C, Mozilla, and Microsoft. She founded the Animation at Work community and weekly newsletter. Recently she wrote an A Book Apart book about how to use all these awesome new animation features to make even better user interfaces.",
+    "twitter": "https://twitter.com/RachelNabors",
+    "sessionTitle": "Vue in Motion",
+    "sessionAbstract": "Learning a JavaScript framework can look intimidating if you come from a traditional design background. But Vue has some of the best features for designing with motion. Come see how to translate your motion design into Vue-powered prototypes!"
+}, {
+    "img": "https://cfp.connectevents.io/system/avatars/1151/large/97cssCek_400x400.jpg?1513436066",
+    "name": "Sarah Drasner",
+    "title": "Sarah Drasner is an award-winning Speaker, Senior Developer Advocate at Microsoft, and Staff Writer at CSS-Tricks. Sarah is also the co-founder of Web Animation Workshops, with Val Head. She’s the author of SVG Animations from O’Reilly and has given Frontend Masters workshops on Vue.js and Advanced SVG Animations. Sarah is formerly Manager of UX Design & Engineering at Trulia (Zillow).",
+    "twitter": "https://twitter.com/@sarah_edo",
+    "sessionTitle": "Animated Interfaces with Vue.js",
+    "sessionAbstract": ""
+}, {
+    "img": "https://cfp.connectevents.io/system/avatars/1012/large/s3X2zik8_400x400.jpg?1515104953",
+    "name": "Sebastien Chopin",
+    "title": "Creator of Nuxt.js & Community partner of Vue.js",
+    "twitter": "https://twitter.com/Atinux",
+    "sessionTitle": "Vue & SSR: The best practices",
+    "sessionAbstract": "Writing an Universal Application with Vue might be hard, this talk will show common problems with server-side rendering and how to deal with them. It will also show how Nuxt.js solves most of these problems for you."
 }]

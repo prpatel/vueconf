@@ -210,14 +210,14 @@ export default {
     margin-top: 10px
 
   .icon--twitter
-    margin-left: 0px
+    margin-left: 10px
 
 .speaker
   .button-secondary
     position: absolute
     right: 10px
 
-  .button-secondary,
+  .button-secondary
     display: none
 
     @media #{$medium-up}
@@ -227,7 +227,7 @@ export default {
   background: none
   border: none
   text-transform: uppercase
-  padding: 10px
+  padding: 00px
   line-height: 15px
   font-size: 15px
   font-weight: 400

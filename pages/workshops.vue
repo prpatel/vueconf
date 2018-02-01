@@ -64,7 +64,7 @@ export default {
       evanWorkshop: {
         type: "talk",
         img: "/img/evan.jpg",
-        topic: "Advanced Features from the Ground Up",
+        topic: "(SOLD OUT) Advanced Features from the Ground Up",
         author: "Evan You",
         social: [
           {
@@ -104,7 +104,7 @@ export default {
       chrisWorkshop: {
         type: "talk",
         img: "/img/chris.jpg",
-        topic: "Vue.js Fundamentals",
+        topic: "Proven patterns for building Vue apps",
         author: "Chris Fritz",
         social: [
           {
@@ -113,7 +113,7 @@ export default {
           }
         ],
         authorInfo: "Consultant\nVue Core Team",
-        description: "This full-day, hands-on workshop will get you coding a Vue.js application in no time! Vue.js is easy to get started with, and easy to build on! This workshop is lead by a member of the core Vue.js team."
+        description: "In this workshop, we'll cover everything you need to know to get started building world-class Vue applications. Topics will include configuring Webpack for single-file components, setting up the most advanced workflows currently possible, how to organize (and reorganize) increasingly complex applications, and more."
       }
     }
   }
