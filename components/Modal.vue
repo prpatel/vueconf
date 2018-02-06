@@ -52,14 +52,20 @@ export default {
   overflow: auto
   box-sizing: border-box
   margin: 40px auto 0
-  padding: 20px
+  padding: 20px 20px 0
   background-color: #fff
   border-radius: 5px
   box-shadow: 0 18px 35px rgba(50,50,93,.1), 0 8px 15px rgba(0,0,0,.07)
   transition: all .3s ease
 
   @media #{$medium-up}
-    padding: 40px
+    padding: 40px 40px 0
+
+.modal-body
+  padding-bottom: 20px
+
+  @media #{$medium-up}
+    padding-bottom: 40px
 
 .modal-footer
   text-align: right
@@ -80,7 +86,10 @@ export default {
 
 .modal-button
   background: #fff
-  margin: 20px auto
+  padding: 20px
+  margin: 0 auto
   display: block
   box-shadow: 0 18px 35px rgba(50,50,93,.1), 0 8px 15px rgba(0,0,0,.07)
+  border-bottom-left-radius: 5px
+  border-bottom-right-radius: 5px
 </style>

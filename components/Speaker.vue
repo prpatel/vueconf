@@ -180,7 +180,6 @@ export default {
       max-width: 240px
 
   .speaker__title
-    margin-top: -5px
     font-size: 28px
     text-transform: none
 
