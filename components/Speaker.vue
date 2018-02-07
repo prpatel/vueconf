@@ -22,16 +22,18 @@
   .speaker(@click="showDetails")
     img.speaker__image(:src="image", :alt="speaker.name")
     .speaker__aside
-      .speaker__title
-        | {{ speaker.name }}
-      .speaker__subtitle
-        | {{ speaker.sessionTitle }}
-      .speaker__social
-        a.icon.icon--gitlab(@click.stop="", v-if="speaker.gitlab", :href="speaker.gitlab" target="_blank")
-        a.icon.icon--github(@click.stop="", v-if="speaker.github", :href="speaker.github" target="_blank")
-        a.icon.icon--twitter(@click.stop="", v-if="speaker.twitter", :href="speaker.twitter" target="_blank")
-
-      button.button-secondary(@click.stop="showDetails") Learn more
+      .speaker__details
+        .speaker__description
+          .speaker__title
+            | {{ speaker.name }}
+          .speaker__subtitle
+            | {{ speaker.sessionTitle }}
+        .speaker__links
+          .speaker__social
+            a.icon.icon--gitlab(@click.stop="", v-if="speaker.gitlab", :href="speaker.gitlab" target="_blank")
+            a.icon.icon--github(@click.stop="", v-if="speaker.github", :href="speaker.github" target="_blank")
+            a.icon.icon--twitter(@click.stop="", v-if="speaker.twitter", :href="speaker.twitter" target="_blank")
+          button.button-secondary(@click.stop="showDetails") Learn more
 </template>
 
 <script>
@@ -85,22 +87,20 @@ export default {
   width: calc(100% - 20px)
   display: inline-block
   margin: 10px
-  height: 100px
   position: relative
   text-align: left
 
   @media #{$medium-up}
     width: calc(50% - 20px)
-    height: 145px
 
 .speaker
-  position: absolute
+  display: flex
   width: 100%
   height: 130px
   @include card
 
 .speaker__image
-  max-width: 100px
+  height: 100%
   display: inline-block
   padding: 0
   vertical-align: top
@@ -113,12 +113,17 @@ export default {
     max-width: 140px
 
 .speaker__aside
-  display: inline-block
   vertical-align: top
   max-width: calc(100% - 120px)
 
   @media #{$medium-up}
     max-width: calc(100% - 160px)
+
+.speaker__details
+  display: flex
+  flex-direction: column
+  justify-content: space-between
+  height: 100%
 
 .speaker__title
   margin-top: 12px
@@ -175,7 +180,6 @@ export default {
       max-width: 240px
 
   .speaker__title
-    margin-top: -5px
     font-size: 28px
     text-transform: none
 
@@ -203,6 +207,15 @@ export default {
     &:before
       content: "— "
 
+.speaker__links
+  display: flex
+  margin-bottom: 12px
+  .speaker__social
+    margin-top: 0
+  .button-secondary
+    position: static
+    line-height: 22px
+
 .speaker__social
   margin-top: 4px
 
@@ -211,6 +224,9 @@ export default {
 
   .icon--twitter
     margin-left: 10px
+
+  .icon:first-child
+    margin-left: 0
 
 .speaker
   .button-secondary

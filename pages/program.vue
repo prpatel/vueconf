@@ -13,6 +13,7 @@
       talk(
         v-for="talk of talks",
         :talk="talk"
+        :key="talk.topic"
       )
 </template>
 

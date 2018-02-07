@@ -6,7 +6,7 @@
 
     speakers-list(:speakers="workshops", :adjust-img-url="true")
 
-    .center
+    .workshops-button.center
       nuxt-link(to="/workshops")
         button.button.speaker-button Read the workshop details
 </template>
@@ -35,4 +35,6 @@ h2
   text-align: center
   z-index: 2
 
+.workshops-button
+  margin-top: 20px
 </style>

@@ -41,6 +41,7 @@ export default {
 .cfp-video
   display: inline-block
   max-width: 100%
+  overflow-x: hidden
   vertical-align: middle
   text-align: left
 

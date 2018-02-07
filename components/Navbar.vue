@@ -2,7 +2,8 @@
 .navbar(:class="isOpen && 'open'")
   .navbar__container
     nuxt-link.navbar__logo(to="/")
-    //object(type="image/svg+xml" data="~assets/vuelogo.svg")
+      img(src="~/assets/vuelogo.svg" width="40" height="36")
+      | VueConf US
 
     button.navbar__burger(type="button", @click="toggle")
         .bar
@@ -76,12 +77,11 @@
     justify-content: space-between
 
   .navbar__logo
-    // TODO: Provide logo
-    background-image: url('~assets/vuelogo.svg')
-    background-size: contain
-    background-repeat: no-repeat
-    width: 260px
-    height: 40px
+    line-height: 40px
+
+    img
+      vertical-align: middle
+      margin-right: 15px
 
   .navbar__logo,
   .navbar-nav__item a

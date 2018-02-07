@@ -44,6 +44,8 @@ export default {
   margin-bottom: 5px
 
 .hero-banner
+  max-width: 800px
+  margin: 0 auto
   text-align: center
   position: relative
   transform: translateZ(0)
@@ -71,6 +73,7 @@ export default {
   display: block
   margin: 0 auto
   max-width: 100%
+  margin-top: 30px
 
 .hero-banner__header
   font-family: $font
