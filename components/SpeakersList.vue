@@ -1,6 +1,6 @@
 <template lang="pug">
 .speakers-list
-  transition-group(name="fade", tag="div")
+  transition-group(name="fade", tag="div" class="speaker-list-container")
     speaker.fade(v-for="speaker of speakersList", :speaker="speaker", :key="speaker.name", :adjust-img-url="adjustImgUrl")
 </template>
 
@@ -36,6 +36,10 @@ export default {
 
 .speakers-list
   margin: 0 -10px
+
+.speaker-list-container
+  display: flex
+  flex-wrap: wrap
 
 .fade
   opacity: 1
