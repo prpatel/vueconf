@@ -58,5 +58,12 @@
         "twitter": "https://twitter.com/"
       }
     ]
+  },
+  {
+    "startTime": "18:00",
+    "duration": "02:00",
+    "topic": "Happy Hour at the House of Blues",
+    "type": "other",
+    "img": "/img/ic-happy.svg"
   }
 ]

@@ -3,29 +3,16 @@
   .container__inner
     .nav-target#tickets
     h1 Tickets
-    p
-      | Regular tickets available January 15 - February 12
-    .ticket(v-for="ticket2 in tickets2")
-      span
-        span.ticket__name {{ ticket2.name }}
-        span.ticket__date {{ ticket2.date }}
-      .ticket__price
-        a.button.button--dark(
-          :disabled="ticket2.disabled"
-          href="https://tickets.connectevents.io/events/vueconfus/",
-          @click="trackTicketsEvent"
-        )
-          | {{ ticket2.price }}
-    br
+
     p
       | Late tickets available February 12 - March 12
-    .ticket--disabled(v-for="ticket2 in tickets3")
+    .ticket(v-for="ticket2 in tickets3")
       span
         span.ticket__name {{ ticket2.name }}
         span.ticket__date {{ ticket2.date }}
       .ticket__price
         a.button.button--dark(
-          :disabled="ticket2.disabled"
+
           href="https://tickets.connectevents.io/events/vueconfus/",
           @click="trackTicketsEvent"
         )

@@ -1,1 +1,180 @@
-[{"startTime":"08:00","duration":"01:00","topic":"Registration","type":"other","img":"/img/ic-happy.svg"},{"startTime":"09:00","duration":"00:10","topic":"Welcome to VueConf.US!","type":"other","img":"/img/ic-happy.svg"},{"startTime":"09:10","duration":"00:30","topic":"Opening Keynote","type":"talk","img":"https://cfp.connectevents.io/system/avatars/1107/large/499550.jpeg?1515104079","author":"Evan You","authorInfo":"Creator of Vue.js ","description":"Opening Keynote by the creator of Vue.js, Evan You!","social":[{"twitter":"https://twitter.com/youyuxi"}]},{"startTime":"09:50","duration":"00:30","topic":"Deciphering You","type":"talk","img":"https://cfp.connectevents.io/system/avatars/1059/large/GreggPollack-Square-New.jpg?1513615639","author":"Gregg Pollack","authorInfo":"Gregg Pollack is the founder of Vue Mastery, the ultimate learning resource for Vue Developers.  Previously he founded Code School, an online software programming school which was acquired by Pluralsight, Envy, a web application development firm, and Starter Studio, Orlando's first technical accelerator now in its eighth class.  He’s passionate about being a father, teaching programming, traveling the world, organizational psychology, and attending theater.","description":"It’s one thing to understand how to use a framework, and quite another to understand how it works beneath the surface.  In this talk we’ll take a deep dive under the covers to begin to understand how Evan You (and the core team) put it all together.  ","social":[{"twitter":"https://twitter.com/greggpollack"}]},{"startTime":"10:40","duration":"00:30","topic":"How We Do Vue At GitLab","type":"talk","img":"https://cfp.connectevents.io/system/avatars/1016/large/jacobschatz.jpg?1510619506","author":"Jacob Schatz","authorInfo":"Jacob Schatz started the frontend team at GitLab. He quickly realized  the endless possibilities at GitLab. Jacob's code has reached millions of people, from making sites for Panera Bread, CVS, Weight Watchers and of course, GitLab, to his person fun projects like MyCaseBuilder. He has been programming since 2006, and has a degree in piano performance. He has also published 2 books, and tons of tutorials and courses.","description":"Based on a few of <a href=\"https://about.gitlab.com/2017/11/09/gitlab-vue-one-year-later/\">our articles</a>. We talk about what we've learned in 1 year of using Vue in production. How we mix in Vuex, webpack, and other tools. How we write tons of code and get from idea to production so quickly using VueJS as our workhorse. How we get crap done at GitLab.","social":[{"twitter":"https://twitter.com/jakecodes"}]},{"startTime":"11:20","duration":"00:30","topic":"Vue in Motion","type":"talk","img":"https://cfp.connectevents.io/system/avatars/1134/large/rachel-nabors.jpg?1515104910","author":"Rachel Nabors","authorInfo":"Rachel Nabors has advocated for interaction designers and developers with the W3C, Mozilla, and Microsoft. She founded the Animation at Work community and weekly newsletter. Recently she wrote an A Book Apart book about how to use all these awesome new animation features to make even better user interfaces.","description":"Learning a JavaScript framework can look intimidating if you come from a traditional design background. But Vue has some of the best features for designing with motion. Come see how to translate your motion design into Vue-powered prototypes!","social":[{"twitter":"https://twitter.com/RachelNabors"}]},{"startTime":"12:00","duration":"00:30","topic":"Testing Vue apps","type":"talk","img":"https://cfp.connectevents.io/system/avatars/1055/large/gYYdG3fP_400x400.jpg?1513436343","author":"Edd Yerburgh","authorInfo":"The lead author of vue-test-utils, Vue core team, and software engineer at the BBC. ","description":"In this talk I'll explain how to structure a test suite, and how to write effective unit tests for Vue components.","social":[{"twitter":"https://twitter.com/eddyerburgh"}]},{"startTime":"12:30","duration":"01:00","topic":"Lunch Day 1","type":"other","img":"/img/ic-happy.svg"},{"startTime":"13:30","duration":"01:00","topic":"Lightning Talks Day 1","type":"talk","img":"https://cfp.connectevents.io/system/avatars/1107/large/499550.jpeg?1515104079","author":"Evan You","authorInfo":"Creator of Vue.js ","description":"Get involved with VueConf.US! This is your chance to do a 8 minute presentation on your favorite Vue.js (or other) topic!","social":[{"twitter":"https://twitter.com/youyuxi"}]},{"startTime":"15:00","duration":"00:30","topic":" Serverless Functions and Vue.js","type":"talk","img":"https://cfp.connectevents.io/system/avatars/1151/large/97cssCek_400x400.jpg?1513436066","author":"Sarah Drasner","authorInfo":"Sarah Drasner is an award-winning Speaker, Senior Developer Advocate at Microsoft, and Staff Writer at CSS-Tricks. Sarah is also the co-founder of Web Animation Workshops, with Val Head. She’s the author of SVG Animations from O’Reilly and has given Frontend Masters workshops on Vue.js and Advanced SVG Animations. Sarah is formerly Manager of UX Design & Engineering at Trulia (Zillow).","description":"Serverless is the most clickbaity title for an actually interesting thing. Despite the name, Serverless does not mean you’re not using a server, rather, the promise of Serverless is to no longer have to babysit a server. Scaling is done for you, you’re billed only for what you use. In this session, we’ll cover some key use cases for these functions within a Vue.js application: we’ll accept payments with stripe, we’ll gather geolocation data from Google Maps, and more! We’ll make it all work with Vue and Nuxt seamlessly, simplifying how to leverage this paradigm to be a workhorse for your application.","social":[{"twitter":"https://twitter.com/@sarah_edo"}]},{"startTime":"15:40","duration":"00:30","topic":"vue-rx","type":"talk","img":"https://cfp.connectevents.io/system/avatars/1017/large/AAUl7IJ3_400x400.jpg?1515104763","author":"John Lindquist","authorInfo":"egghead.io founder | nap enthusiast","description":"Vue.js ships with a built-in reactive system to help easily manage data and state throughout your app, but RxJS streams allow you to control complex async situations through streams. This lecture will cover how Vue.js integrates with RxJS and walks through the common problems taking this approach can solve.","social":[{"twitter":"https://twitter.com/johnlindquist"}]},{"startTime":"16:30","duration":"00:30","topic":"Create an Engaging Native Mobile App with Vue and NativeScript","type":"talk","img":"https://cfp.connectevents.io/system/avatars/932/large/jlooper_sm.jpg?1507943638","author":"Jen Looper","authorInfo":"Jen Looper is a Senior Developer Advocate at Progress with over 15 years' experience as a web and mobile developer, specializing in creating cross-platform mobile apps. She's a multilingual multiculturalist with a passion for hardware hacking, mobile apps, machine learning and discovering new things every day. Visit her online at http://www.ladeezfirstmedia.com, or via Twitter @jenlooper.","description":"You have a beautiful web site built with Vue? Great! Now you need a mobile app to engage your users even further. Or, better yet, you need to offer different, yet complimentary functionality, while retaining shared code between your web site and mobile app. Welcome to the beautiful world of Vue and NativeScript, which, paired together on the web and on mobile, make for a great user experience. ","social":[{"twitter":"https://twitter.com/jenlooper"}]},{"startTime":"17:00","duration":"01:00","topic":"Vue Core Team Panel","type":"talk","img":"https://cfp.connectevents.io/system/avatars/1107/large/499550.jpeg?1515104079","author":"Evan You","authorInfo":"Creator of Vue.js ","description":"Meet the Vue.js Core Team and ask them your questions!","social":[{"twitter":"https://twitter.com/youyuxi"}]},{"startTime":"18:00","duration":"01:30","topic":"Conference Reception (live Jazz Band!)","type":"other","img":"/img/ic-happy.svg"}]
+[
+  {
+    "startTime": "08:00",
+    "duration": "01:00",
+    "topic": "Registration",
+    "type": "other",
+    "img": "/img/ic-happy.svg"
+  },
+  {
+    "startTime": "09:00",
+    "duration": "00:10",
+    "topic": "Welcome to VueConf.US!",
+    "type": "other",
+    "img": "/img/ic-happy.svg"
+  },
+  {
+    "startTime": "09:10",
+    "duration": "00:30",
+    "topic": "Opening Keynote",
+    "type": "talk",
+    "img": "https://cfp.connectevents.io/system/avatars/1107/large/499550.jpeg?1515104079",
+    "author": "Evan You",
+    "authorInfo": "Creator of Vue.js ",
+    "description": "Opening Keynote by the creator of Vue.js, Evan You!",
+    "social": [
+      {
+        "twitter": "https://twitter.com/youyuxi"
+      }
+    ]
+  },
+  {
+    "startTime": "09:50",
+    "duration": "00:30",
+    "topic": "Deciphering You",
+    "type": "talk",
+    "img": "https://cfp.connectevents.io/system/avatars/1059/large/GreggPollack-Square-New.jpg?1513615639",
+    "author": "Gregg Pollack",
+    "authorInfo": "Gregg Pollack is the founder of Vue Mastery, the ultimate learning resource for Vue Developers.  Previously he founded Code School, an online software programming school which was acquired by Pluralsight, Envy, a web application development firm, and Starter Studio, Orlando's first technical accelerator now in its eighth class.  He’s passionate about being a father, teaching programming, traveling the world, organizational psychology, and attending theater.",
+    "description": "It’s one thing to understand how to use a framework, and quite another to understand how it works beneath the surface.  In this talk we’ll take a deep dive under the covers to begin to understand how Evan You (and the core team) put it all together.  ",
+    "social": [
+      {
+        "twitter": "https://twitter.com/greggpollack"
+      }
+    ]
+  },
+  {
+    "startTime": "10:40",
+    "duration": "00:30",
+    "topic": "How We Do Vue At GitLab",
+    "type": "talk",
+    "img": "https://cfp.connectevents.io/system/avatars/1016/large/jacobschatz.jpg?1510619506",
+    "author": "Jacob Schatz",
+    "authorInfo": "Jacob Schatz started the frontend team at GitLab. He quickly realized  the endless possibilities at GitLab. Jacob's code has reached millions of people, from making sites for Panera Bread, CVS, Weight Watchers and of course, GitLab, to his person fun projects like MyCaseBuilder. He has been programming since 2006, and has a degree in piano performance. He has also published 2 books, and tons of tutorials and courses.",
+    "description": "Based on a few of <a href=\"https://about.gitlab.com/2017/11/09/gitlab-vue-one-year-later/\">our articles</a>. We talk about what we've learned in 1 year of using Vue in production. How we mix in Vuex, webpack, and other tools. How we write tons of code and get from idea to production so quickly using VueJS as our workhorse. How we get crap done at GitLab.",
+    "social": [
+      {
+        "twitter": "https://twitter.com/jakecodes"
+      }
+    ]
+  },
+  {
+    "startTime": "11:20",
+    "duration": "00:30",
+    "topic": "Vue in Motion",
+    "type": "talk",
+    "img": "https://cfp.connectevents.io/system/avatars/1134/large/rachel-nabors.jpg?1515104910",
+    "author": "Rachel Nabors",
+    "authorInfo": "Rachel Nabors has advocated for interaction designers and developers with the W3C, Mozilla, and Microsoft. She founded the Animation at Work community and weekly newsletter. Recently she wrote an A Book Apart book about how to use all these awesome new animation features to make even better user interfaces.",
+    "description": "Learning a JavaScript framework can look intimidating if you come from a traditional design background. But Vue has some of the best features for designing with motion. Come see how to translate your motion design into Vue-powered prototypes!",
+    "social": [
+      {
+        "twitter": "https://twitter.com/RachelNabors"
+      }
+    ]
+  },
+  {
+    "startTime": "12:00",
+    "duration": "00:30",
+    "topic": "Testing Vue apps",
+    "type": "talk",
+    "img": "https://cfp.connectevents.io/system/avatars/1055/large/gYYdG3fP_400x400.jpg?1513436343",
+    "author": "Edd Yerburgh",
+    "authorInfo": "The lead author of vue-test-utils, Vue core team, and software engineer at the BBC. ",
+    "description": "In this talk I'll explain how to structure a test suite, and how to write effective unit tests for Vue components.",
+    "social": [
+      {
+        "twitter": "https://twitter.com/eddyerburgh"
+      }
+    ]
+  },
+  {
+    "startTime": "12:30",
+    "duration": "01:00",
+    "topic": "Lunch Day 1",
+    "type": "other",
+    "img": "/img/ic-happy.svg"
+  },
+  {
+    "startTime": "13:30",
+    "duration": "01:00",
+    "topic": "Lightning Talks Day 1",
+    "type": "talk",
+    "img": "https://cfp.connectevents.io/system/avatars/1107/large/499550.jpeg?1515104079",
+    "author": "Evan You",
+    "authorInfo": "Creator of Vue.js ",
+    "description": "Get involved with VueConf.US! This is your chance to do a 8 minute presentation on your favorite Vue.js (or other) topic!",
+    "social": [
+      {
+        "twitter": "https://twitter.com/youyuxi"
+      }
+    ]
+  },
+  {
+    "startTime": "15:00",
+    "duration": "00:30",
+    "topic": " Serverless Functions and Vue.js",
+    "type": "talk",
+    "img": "https://cfp.connectevents.io/system/avatars/1151/large/97cssCek_400x400.jpg?1513436066",
+    "author": "Sarah Drasner",
+    "authorInfo": "Sarah Drasner is an award-winning Speaker, Senior Developer Advocate at Microsoft, and Staff Writer at CSS-Tricks. Sarah is also the co-founder of Web Animation Workshops, with Val Head. She’s the author of SVG Animations from O’Reilly and has given Frontend Masters workshops on Vue.js and Advanced SVG Animations. Sarah is formerly Manager of UX Design & Engineering at Trulia (Zillow).",
+    "description": "Serverless is the most clickbaity title for an actually interesting thing. Despite the name, Serverless does not mean you’re not using a server, rather, the promise of Serverless is to no longer have to babysit a server. Scaling is done for you, you’re billed only for what you use. In this session, we’ll cover some key use cases for these functions within a Vue.js application: we’ll accept payments with stripe, we’ll gather geolocation data from Google Maps, and more! We’ll make it all work with Vue and Nuxt seamlessly, simplifying how to leverage this paradigm to be a workhorse for your application.",
+    "social": [
+      {
+        "twitter": "https://twitter.com/@sarah_edo"
+      }
+    ]
+  },
+  {
+    "startTime": "15:40",
+    "duration": "00:30",
+    "topic": "vue-rx",
+    "type": "talk",
+    "img": "https://cfp.connectevents.io/system/avatars/1017/large/AAUl7IJ3_400x400.jpg?1515104763",
+    "author": "John Lindquist",
+    "authorInfo": "egghead.io founder | nap enthusiast",
+    "description": "Vue.js ships with a built-in reactive system to help easily manage data and state throughout your app, but RxJS streams allow you to control complex async situations through streams. This lecture will cover how Vue.js integrates with RxJS and walks through the common problems taking this approach can solve.",
+    "social": [
+      {
+        "twitter": "https://twitter.com/johnlindquist"
+      }
+    ]
+  },
+  {
+    "startTime": "16:30",
+    "duration": "00:30",
+    "topic": "Create an Engaging Native Mobile App with Vue and NativeScript",
+    "type": "talk",
+    "img": "https://cfp.connectevents.io/system/avatars/932/large/jlooper_sm.jpg?1507943638",
+    "author": "Jen Looper",
+    "authorInfo": "Jen Looper is a Senior Developer Advocate at Progress with over 15 years' experience as a web and mobile developer, specializing in creating cross-platform mobile apps. She's a multilingual multiculturalist with a passion for hardware hacking, mobile apps, machine learning and discovering new things every day. Visit her online at http://www.ladeezfirstmedia.com, or via Twitter @jenlooper.",
+    "description": "You have a beautiful web site built with Vue? Great! Now you need a mobile app to engage your users even further. Or, better yet, you need to offer different, yet complimentary functionality, while retaining shared code between your web site and mobile app. Welcome to the beautiful world of Vue and NativeScript, which, paired together on the web and on mobile, make for a great user experience. ",
+    "social": [
+      {
+        "twitter": "https://twitter.com/jenlooper"
+      }
+    ]
+  },
+  {
+    "startTime": "17:00",
+    "duration": "01:00",
+    "topic": "Vue Core Team Panel",
+    "type": "talk",
+    "img": "https://cfp.connectevents.io/system/avatars/1107/large/499550.jpeg?1515104079",
+    "author": "Evan You",
+    "authorInfo": "Creator of Vue.js ",
+    "description": "Meet the Vue.js Core Team and ask them your questions!",
+    "social": [
+      {
+        "twitter": "https://twitter.com/youyuxi"
+      }
+    ]
+  },
+  {
+    "startTime": "18:15",
+    "duration": "02:30",
+    "topic": "Conference PARADE! and Reception (meet in Sheraton lobby, don't be late!)",
+    "type": "other",
+    "img": "/img/ic-happy.svg"
+  }
+]

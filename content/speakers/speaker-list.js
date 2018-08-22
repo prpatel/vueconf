@@ -34,13 +34,6 @@ export default [{
     "sessionTitle": "Testing Vue apps",
     "sessionAbstract": "In this talk I'll explain how to structure a test suite, and how to write effective unit tests for Vue components."
 }, {
-    "img": "https://cfp.connectevents.io/system/avatars/1046/large/zRA6JKZa_400x400.jpg?1513281300",
-    "name": "Erin Depew",
-    "title": "Erin Depew is a software engineer at Behance in New York. ",
-    "twitter": "https://twitter.com/erindepew",
-    "sessionTitle": "A Short Synopsis of Vue Storybook",
-    "sessionAbstract": "Styleguides are an important tool for development and design teams but they often have an underwhelming feature-set and are difficult to implement. Storybook is a lightweight styleguide generator that addresses these common issues and now supports Vue components. During this talk, we’ll present a brief overview of Vue Storybook: what it does, how it works, and why you would want to use it."
-}, {
     "img": "https://cfp.connectevents.io/system/avatars/1107/large/499550.jpeg?1515104079",
     "name": "Evan You",
     "title": "Creator of Vue.js ",
@@ -83,7 +76,7 @@ export default [{
     "sessionTitle": "Agile Design Systems in Vue",
     "sessionAbstract": "Style Guides & Pattern Libraries are great tools for documenting the relationships between code and UX, but beautiful docs are only half the battle. We don’t all have dedicated teams and budgets to build a centralized system. How can we build patterns into our code, using Vue components and pre-processors to iterate and automate living design systems in an agile and integrated process?"
 }, {
-    "img": "https://cfp.connectevents.io/system/avatars/953/large/0.jpeg?1517237687",
+    "img": "https://cfp.connectevents.io/system/avatars/953/large/19510125_10155052758218692_4041525464096376575_n.jpg?1518046095",
     "name": "Peter Finn",
     "title": "I am a positive thinking, self starting software developer who dreams in JavaScript and someday hopes to actually know the best way to architect his CSS. I have a passion for \"Front-End\" web development and single page apps, and love to explore new technologies that push the bleeding edge of what a web browser is capable of.",
     "twitter": "https://twitter.com/",

@@ -4,6 +4,8 @@
     h1.agenda__header Conference program
     p.subheader__description
       strong DAY 0 - WORKSHOP DAY (March 26) 9:00 – 18:00
+      br
+      strong 4th Floor, Bayside room
     .agenda
       event(
         v-for="event of eventsDay0",
@@ -12,6 +14,8 @@
       )
     p.subheader__description
       strong DAY 1 (March 27) 9:00 – 18:00
+      br
+      strong 3rd Floor, Napoleon Ballroom
       br
       | The schedule is subject to change
     .agenda
@@ -22,6 +26,8 @@
       )
     p.subheader__description
       strong DAY 2 (March 28) 9:00 – 18:00
+      br
+      strong 3rd Floor, Napoleon Ballroom
     .agenda
       event(
         v-for="event of eventsDay2",

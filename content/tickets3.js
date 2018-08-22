@@ -16,7 +16,7 @@ export default [
   {
     name: 'Conference + Workshop',
     date: 'Conference + Workshop March 26-28',
-    price: '$1395',
+    price: '$1295',
     disabled: true,
     url: 'https://tickets.connectevents.io/events/vueconfus/'
   },

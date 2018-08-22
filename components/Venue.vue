@@ -17,6 +17,10 @@
         | 500 Canal St,
         br
         | New Orleans, LA
+        br
+        | Monday: 4th Floor, Bayside room
+        br
+        | Tuesday: 3rd Floor, Napoleon ballroom
       a.button.button--dark(href="https://goo.gl/maps/hNy2FiQWVgu", target="_BLANK") SEE THE MAP
       p
         | Discounted block rooms available!
