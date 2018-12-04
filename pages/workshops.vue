@@ -36,19 +36,31 @@
         //- a.button(slot="ticket", disabled) Sold out
       talk(:talk="blakeWorkshop", :desc-flex="7")
         :markdown-it
-          As an application grows, you will notice that components will share common code and state. Eventually as the application grows it can become more important to manage this state carefully, to improve maintainability, predictability and application flow.
+          In Vue.js is quite simple to work with components, and share data among them using events and props - especially in small to medium projects. When an application starts growing, managing components state might become tedious and overwhelming. This is where Vuex comes to our rescue. Vuex is a state management pattern and official library for Vue.js applications. It serves as a centralized store for all the components in an application, with rules ensuring that the state can only be mutated in a predictable fashion.
 
-          Vuex, is inspired by elm. It is not only a **library** but a **state management pattern**. Introducing these patterns, improves the overall application flow and creates a centralised state. However, it is easy to go overboard with state managment; thus we will look at a full range of best practices to ensure you can make the most of Vuex.
+          By the end of the workshop, attendees will be able to develop elegant, debuggable, maintainable, and organized applications using a centralized store. No prior experience with Vuex is needed.
 
-          Schedule:
-          - What is Vuex?
-          - Looking at state management patterns
-          - Determining application state from local state
-          - Using **Actions**, **Mutations** and **Getters**
-          - Modularising a store
-          - Composing actions (Promises and Async/Await)
-          - Avoiding common pitfalls
-        //- a.button(slot="ticket", disabled) Sold out
+          We will answer the common question “When should I use Vuex?” and work on real-world features.
+
+          ## Outline
+          - Understanding State Management Patterns
+          - What is Vuex and what problems solves
+          - Core concepts including Mutations, Actions, and Getters
+          - Modularising the store
+          - Composing Vuex assets using Higher-Order Functions
+          - Implementing Vuex pseudo-cache
+          - Best practices, common gotchas, and application architecture
+      talk(:talk="introVue", :desc-flex="7")
+        :markdown-it
+           This workshop will teach you the fundamentals of Vue so you can start being productive and building apps immediately. With visual animations and analogies that make abstract concepts concrete, along with coding challenges that help you learn by doing, you'll have a solid foundation of Vue skills by the end of the day. Brought to you by the teachers at VueMastery.com.
+      talk(:talk="vueComponents", :desc-flex="7")
+        :markdown-it
+           Components are the bread and butter of most modern front-end frameworks, such as Vue.js. They help you structure and manage your application by glueing together your application logic and the interface. However, as an application grows, its components tend to get bigger and harder to reason about.
+           This workshop will demonstrate how to efficiently design your components by focusing on maximum flexibility while avoiding premature optimisation. Throughout the workshop, we’ll build a set of components for a preexisting application. Following the evolving requirements, we will then perform a series of refactoring cycles to explore different possible solutions and patterns/anti-patterns. We’ll also talk about good practices for managing responsibilities of our components. By the end of the workshop, you should be able to write future-proof components that are easy to work with and resilient to changes.
+      talk(:talk="vueVixens", :desc-flex="7")
+        :markdown-it
+           Vueconf.US is pleased to partner with VueVixens to bring this full day Vue.js training as part of the event. Details for applying for a VueVixens scholarship will be posted soon!
+
 </template>
 
 <script>
@@ -56,7 +68,7 @@ import Talk from '../components/Talk'
 
 export default {
   head: {
-    title: 'VueConf US 2018 | Workshops'
+    title: 'VueConf US 2019 | Workshops'
   },
   components: { Talk },
   data () {
@@ -64,7 +76,7 @@ export default {
       evanWorkshop: {
         type: "talk",
         img: "/img/evan.jpg",
-        topic: "(SOLD OUT) Advanced Features from the Ground Up",
+        topic: "A deep dive into Vue",
         author: "Evan You",
         social: [
           {
@@ -72,21 +84,26 @@ export default {
             twitter: "https://twitter.com/youyuxi"
           }
         ],
-        authorInfo: "Vue.js Author",
-        description: "We often reach for existing libraries when dealing with advanced app features such as routing, state management, form validation and i18n, and a lot of times the implementations behind these libraries can be a black box. \n\n In this workshop we are going to build simple versions of such libraries from the ground up using basic Vue features. \n\n This will help you better understand the nature of these problems and how to better leverage Vue’s reactivity system to come up with elegant solutions."
+        authorInfo: "Creator of Vue.js",
+        description: "In this workshop we are going to do a deep dive into the two fundamental concepts in Vue: reactivity and rendering. We will explore how Vue detects and reacts to changes, and how Vue compiles your templates into virtual DOM render functions. Based on this knowledge, we will then discuss how to unlock the full potential of Vue with advanced component patterns."
       },
       blakeWorkshop: {
         type: "talk",
-        img: "/img/blake.jpg",
-        topic: "Application state with Vuex",
-        author: "Blake Newman",
+        img: "/img/alexk.jpg",
+        topic: "Vuex Demystified - Application State Management",
+        author: "Alex Kyriakidis, Rolf Haug",
         social: [
           {
-            github: "https://github.com/blake-newman",
-            twitter: "https://twitter.com/blakenewman"
+            github: "https://github.com/hootlex",
+            twitter: "https://twitter.com/hootlex"
           }
         ],
-        authorInfo: "Software Engineer at Attest\nVue Core Team",
+        authorInfo: "Authors of the VueSchool.io and The Vue.js Master Class",
+          description: "In Vue.js is quite simple to work with components, and share data among them using events and props - especially in small to medium projects. When an application starts growing, managing components state might become tedious and overwhelming. This is where Vuex comes to our rescue. Vuex is a state management pattern and official library for Vue.js applications. It serves as a centralized store for all the components in an application, with rules ensuring that the state can only be mutated in a predictable fashion.\n" +
+          "\n" +
+          "By the end of the workshop, attendees will be able to develop elegant, debuggable, maintainable, and organized applications using a centralized store. No prior experience with Vuex is needed.\n" +
+          "\n" +
+          "We will answer the common question “When should I use Vuex?” and work on real-world features."
       },
       sarahWorkshop: {
         type: "talk",
@@ -114,7 +131,50 @@ export default {
         ],
         authorInfo: "Consultant\nVue Core Team",
         description: "In this workshop, we'll cover everything you need to know to get started building world-class Vue applications. Topics will include configuring Webpack for single-file components, setting up the most advanced workflows currently possible, how to organize (and reorganize) increasingly complex applications, and more."
-      }
+      },
+         introVue: {
+           type: "talk",
+           img: "/img/vuemastery.jpg",
+           topic: "Intro to Vue",
+           author: "Gregg Pollack & Adam Jahr",
+           social: [
+             {
+
+               twitter: "https://twitter.com/vuemastery",
+             }
+           ],
+           authorInfo: "Teachers at VueMastery.com",
+           description: "This workshop will teach you the fundamentals of Vue so you can start being productive and building apps immediately. With visual animations and analogies that make abstract concepts concrete, along with coding challenges that help you learn by doing, you'll have a solid foundation of Vue skills by the end of the day. Brought to you by the teachers at VueMastery.com."
+         },
+        vueComponents: {
+          type: "talk",
+          img: "/img/damian.jpg",
+          topic: "Ridiculously Reusable Components in Vue.js",
+          author: "Damian Dulisz",
+          social: [
+            {
+              github: "https://github.com/shentao",
+              twitter: "https://twitter.com/damiandulisz",
+            }
+          ],
+          authorInfo: "Vue.js Core Team Member and Vue.js consultant",
+          description: "Components are the bread and butter of most modern front-end frameworks, such as Vue.js. They help you structure and manage your application by glueing together your application logic and the interface. However, as an application grows, its components tend to get bigger and harder to reason about.                          This workshop will demonstrate how to efficiently design your components by focusing on maximum flexibility while avoiding premature optimisation. Throughout the workshop, we’ll build a set of components for a preexisting application. Following the evolving requirements, we will then perform a series of refactoring cycles to explore different possible solutions and patterns/anti-patterns. We’ll also talk about good practices for managing responsibilities of our components. By the end of the workshop, you should be able to write future-proof components that are easy to work with and resilient to changes."
+        },
+        vueVixens: {
+            type: "talk",
+            img: "/img/vuevixens.png",
+            topic: "Vue Vixens Skulk",
+            author: "The Vue Vixens",
+            social: [
+                {
+                    github: "https://github.com/vuevixens",
+                    twitter: "https://twitter.com/vuevixens",
+                }
+            ],
+            authorInfo: "Foxy people who identify as women",
+            description: "Vueconf.US is pleased to partner with VueVixens to bring this full day Vue.js training as part of the event. Details for applying for a VueVixens scholarship will be posted soon!"
+        }
+
     }
   }
 }

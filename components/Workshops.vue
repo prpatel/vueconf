@@ -3,12 +3,12 @@
   .container__inner.post-section
     h1
       | Workshops
-
-    speakers-list(:speakers="workshops", :adjust-img-url="true")
+    h2
+      | Level-up your Vue.js knowledge with Vue.js core team members and experts!
 
     .workshops-button.center
       nuxt-link(to="/workshops")
-        button.button.speaker-button Read the workshop details
+        button.button.speaker-button See Workshop Details
 </template>
 
 <script>

@@ -28,7 +28,7 @@ footer.footer
       //- |  and
       //- a(href="https://monterail.com"): strong.footer__logo
       .footer__copyright
-        | Copyright 2017-2018 ConnectEvents.io
+        | Copyright 2018-2019 ConnectEvents.io
         br
       //- .footer__legal
       //-   | Monterail.com Sp. z o.o. with its registered office in Wrocław, at 27-29 Oławska street, 50-123 Wrocław, Poland, registered with the Register of Entrepreneurs of the National Court Register maintained by the District Court of Wrocław-Fabryczna in Wrocław, VI Commercial Division of the National Court Register, under entry number KRS 0000357415, NIP [taxpayer ID] 778-147-18-20, REGON [enterprise ID] 301447685, share capital 5.000 PLN, e-mail vueconf@monterail.com.

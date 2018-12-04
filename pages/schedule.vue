@@ -1,39 +1,39 @@
 <template lang="pug">
 .container
   .container__inner.post-section
-    h1.agenda__header Conference program
+    h1.agenda__header Detailed Schedule to be published soon
     p.subheader__description
-      strong DAY 0 - WORKSHOP DAY (March 26) 9:00 – 18:00
+      strong DAY 0 - WORKSHOP DAY (March 25) 9:00 – 20:00
       br
-      strong 4th Floor, Bayside room
+      strong Straz Arts Center
     .agenda
-      event(
-        v-for="event of eventsDay0",
-        :event="event",
-        key="index"
-      )
+    //  event(
+    //    v-for="event of eventsDay0",
+    //    :event="event",
+    //    key="index"
+    //  )
     p.subheader__description
-      strong DAY 1 (March 27) 9:00 – 18:00
+      strong DAY 1 (March 26) 9:00 – 21:00
       br
-      strong 3rd Floor, Napoleon Ballroom
+      strong Straz Arts Center
       br
       | The schedule is subject to change
     .agenda
-      event(
-        v-for="event of eventsDay1",
-        :event="event",
-        key="index"
-      )
+    //  event(
+    //    v-for="event of eventsDay1",
+    //    :event="event",
+    //    key="index"
+    //  )
     p.subheader__description
-      strong DAY 2 (March 28) 9:00 – 18:00
+      strong DAY 2 (March 27) 9:00 – 18:00
       br
-      strong 3rd Floor, Napoleon Ballroom
+      strong Straz Arts Center
     .agenda
-      event(
-        v-for="event of eventsDay2",
-        :event="event",
-        key="index"
-      )
+      // event(
+      //  v-for="event of eventsDay2",
+      //  :event="event",
+      //  key="index"
+      //)
 </template>
 
 <script>

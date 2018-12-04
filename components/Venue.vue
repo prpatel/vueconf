@@ -5,26 +5,23 @@
     h1
       | Location
     a.venue__map(href="https://goo.gl/maps/hNy2FiQWVgu", target="_BLANK")
-      img(src="~assets/img/map.png" alt="Sheraton New Orleans")
+      img(src="~assets/img/straz1.jpg" alt="STRAZ ARTS CENTER")
     .text-center
-      h2: strong Sheraton New Orleans
+      h2: strong STRAZ ARTS CENTER
       p
-        | VueConf.US will take place in the heart of historic New Orleans, within walking distance of the best food, music, and culture the city has to offer.
+        | VueConf.US will take place in beautiful Tampa, Florida. We'll be in the heart of downtown on the river, and within a short drive of Tampa's amazing beaches.
 
       p
         strong Address:
         br
-        | 500 Canal St,
+        | 1010 N Macinnes Pl
         br
-        | New Orleans, LA
-        br
-        | Monday: 4th Floor, Bayside room
-        br
-        | Tuesday: 3rd Floor, Napoleon ballroom
-      a.button.button--dark(href="https://goo.gl/maps/hNy2FiQWVgu", target="_BLANK") SEE THE MAP
+        | Tampa, FL, USA
+
+      a.button.button--dark(href="https://goo.gl/maps/Zx36nMrTTEn", target="_BLANK") SEE THE MAP
       p
         | Discounted block rooms available!
-      a.button.button--dark(href="https://www.starwoodmeeting.com/Book/VueConf2018", target="_BLANK") CLICK HERE TO BOOK
+      a.button.button--dark(href="http://www.marriott.com/meeting-event-hotels/group-corporate-travel/groupCorp.mi?resLinkData=VueConf%5Etpatd%60vuevuea%7Cvuevueb%60229.00%60USD%60false%602%60;tpadt%60vuevuea%7Cvuevueb%60219%60USD%60false%602%603/24/19%603/27/19%6002/24/19&app=resvlink&stop_mobi=yes", target="_BLANK") CLICK HERE TO BOOK
 
 </template>
 

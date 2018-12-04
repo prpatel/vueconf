@@ -19,7 +19,7 @@ export default [
     "link": 'sarah-drasner'
   },
   {
-    "name": "Blake Newman",
+    "name": "Alex K",
     "title": "Application state with Vuex",
     "img": "img/blake.jpg",
     "github": "https://github.com/blake-newman",

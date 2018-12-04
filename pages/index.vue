@@ -44,7 +44,7 @@ export default {
     LightningSection
   },
   head: {
-    title: 'VueConf US – March 26–28, 2018 in New Orleans, USA | Vue.js Conference'
+    title: 'VueConf US – March 25-27, 2019 in Tampa, USA | Vue.js Conference'
   },
   data () {
     return {

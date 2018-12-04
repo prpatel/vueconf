@@ -6,64 +6,42 @@
       //- TODO: Fill this as needed when there are sponsors
       .sponsors__container
         .div
-          h2 DIAMOND
-          a(href="https://rangle.io/", target="_BLANK")
-            img.sponsor__image(src="~assets/img/rangle.png")
-          p
+          // h2 DIAMOND
+          // a(href="https://rangle.io/", target="_BLANK")
+          //  img.sponsor__image(src="~assets/img/rangle.png")
+          // p
           h2 GOLD
           a(href="https://www.vehikl.com/", target="_BLANK")
             img.sponsor__image(src="~assets/img/vehikl.png")
-          a(href="http://progress.com/", target="_BLANK")
-            img.sponsor__image(src="~assets/img/progress.png")
           p
           h2 SILVER
-          a(href="https://www.bugsnag.com/", target="_BLANK")
-            img.sponsor__image(src="~assets/img/bugsnag.png")
-          a(href="https://ionicframework.com/", target="_BLANK")
-            img.sponsor__image(src="~assets/img/ionic.png")
-          a(href="https://redventures.com/", target="_BLANK")
-            img.sponsor__image(src="~assets/img/redventures.png")
-          a(href="https://firebase.com/", target="_BLANK")
-            img.sponsor__image(src="~assets/img/firebase.png")
-          a(href="http://bit.ly/2F9u5Xp", target="_BLANK")
-            img.sponsor__image(src="~assets/img/algolia.png")
-          a(href="https://tidelift.com/", target="_BLANK")
-            img.sponsor__image(src="~assets/img/tidelift.jpg")
+          a(href="https://www.openshift.com/", target="_BLANK")
+            img.sponsor__image(src="~assets/img/openshift.png")
 
           p
           h2 HAPPY HOUR
-          a(href="https://www.netlify.com/", target="_BLANK")
-            img.sponsor__image(src="~assets/img/netlify.png")
-          a(href="https://www.bugsnag.com/", target="_BLANK")
-            img.sponsor__image(src="~assets/img/bugsnag.png")
+          a(href="https://www.ritterim.com/", target="_BLANK")
+            img.sponsor__image(src="~assets/img/ritter.png")
 
           h2 VIDEO
           a(href="http://vuemastery.com/", target="_BLANK")
             img.sponsor__image(src="~assets/img/vuemastery.png")
           p
-          h2 LANYARD
-          p
-            a(href="https://www.gitlab.com/", target="_BLANK")
-              img.sponsor__image(src="~assets/img/gitlab.png")
+          // h2 LANYARD
+          // p
+          //  a(href="https://www.gitlab.com/", target="_BLANK")
+          //    img.sponsor__image(src="~assets/img/gitlab.png")
           p
           h2 NAME BADGE
           p
             a(href="https://www.cloudinary.com/", target="_BLANK")
               img.sponsor__image(src="~assets/img/cloudinary.png")
-          p
-          h2 MEDIA PARTNER
-          p
-            a(href="https://www.infoq.com/", target="_BLANK")
-              img.sponsor__image(src="~assets/img/infoq.png")
+
           p
           h2 COMMUNITY PARTNERS
             p
               a(href="https://www.vuevixens.org/", target="_BLANK")
                 img.sponsor__image(src="~assets/img/vuevixens.png")
-              a(href="https://vuejobs.com/", target="_BLANK")
-                img.sponsor__image(src="~assets/img/vuejobs.png")
-              a(href="https://operationspark.org/", target="_BLANK")
-                img.sponsor__image(src="~assets/img/operationspark.png")
 
       //- h2 Partners
       //- .sponsors__container
@@ -79,7 +57,7 @@
       p Help us make it the best possible conference for the community.
       a.button(
         target="_BLANK",
-        href="https://docs.google.com/forms/d/e/1FAIpQLSfDU6CAZtk9YMC3oSA7Qon7wS4DfpqpT6MfhuCOpdUhCBW_PA/viewform"
+        href="https://connectevents.typeform.com/to/lNGV4O"
       ) Become a Sponsor
 </template>
 

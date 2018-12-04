@@ -23,7 +23,7 @@
              | Schedule
 
         li.navbar-nav__item
-          a.button(href="https://tickets.connectevents.io/events/vueconfus/")
+          a.button(href="https://tickets.connectevents.io/events/vueconf2019/")
             | Register
 </template>
 

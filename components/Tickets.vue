@@ -5,15 +5,15 @@
     h1 Tickets
 
     p
-      | Late tickets available February 12 - March 12
-    .ticket(v-for="ticket2 in tickets3")
+      | Regular price tickets available until January 15
+    .ticket(v-for="ticket2 in tickets2")
       span
         span.ticket__name {{ ticket2.name }}
         span.ticket__date {{ ticket2.date }}
       .ticket__price
         a.button.button--dark(
 
-          href="https://tickets.connectevents.io/events/vueconfus/",
+          href="https://tickets.connectevents.io/events/vueconf2019/",
           @click="trackTicketsEvent"
         )
           | {{ ticket2.price }}

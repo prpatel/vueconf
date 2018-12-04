@@ -3,18 +3,20 @@
     .hero-banner__content
       //- logo-type
       img.hero-banner__image(src="~/assets/img/vuesplash.png")
+      br
+      br
       h2.hero-banner__subheader
-        strong Sheraton New Orleans
+        strong STRAZ ARTS CENTER
         br
-        | USA • March 26-28, 2018
-      h1.hero-banner__tagline Music. Food. Vue.
+        | Tampa, USA • March 25-27, 2019
+      h1.hero-banner__tagline Art. Code. Vue.
       h2.hero-banner__subheader.hero-banner__subheader--last
         strong Workshop day:
-        |  March 26,
+        |  March 25,
         br
         strong Main Conference:
-        |  March 27-28
-      a.post-section__button.button(href="https://tickets.connectevents.io/events/vueconfus/")
+        |  March 26-27
+      a.post-section__button.button(href="https://tickets.connectevents.io/events/vueconf2019/")
         | Register
 </template>
 

@@ -1,30 +1,24 @@
 <template lang="pug">
-.section.post-section.cfp-section
-  .cfp-video
-    iframe(
-      width="400"
-      height="270"
-      src="https://www.youtube.com/embed/i9SK-l2gQEE?rel=0&amp;showinfo=0"
-      frameborder="0"
-      allowfullscreen
-    )
+div
+  hero-section
 
-  .cfp-content
-    h1 Join the band!
-    h4 Explore everything about Vue.js with speakers and attendees from all over!
+  .container
+    .container__inner.section.post-section
+      .cfp-video
+        iframe(
+          width="520"
+          height="292"
+          src="https://www.youtube.com/embed/tdBO-XGOMPI?rel=0&amp;showinfo=0"
+          frameborder="0"
+          allowfullscreen
+        )
+      .cfp-content
+        h1 How do you Vue?
+        br
+        h4 Attendees will get a chance to do lightning talks and share their passion for Vue.js!
 
-    p We are working on selecting the best presentations, full program announced on December 15. Workshop details available below!
+        p Lightning talk papers can be submitted a week before the event, so start thinking of your ideas after you've gotten you tickets!
 
-
-  //- .nav-target#apply
-  //- .center
-  //-   include:markdown-it ../content/speakers/cfp.md
-
-  //-   a.post-section__button.button(href="https://docs.google.com/forms/d/e/1FAIpQLSdtbxBpV0j_zCnELXQuIkeGH8x6gaOWE0J8tTsAdpa0O5MYOw/viewform" target="_blank")
-  //-     | Apply as a speaker
-
-  //-   p.post-section__paragraph
-  //-     | We will come back to you within a few days.
 </template>
 
 <script>
