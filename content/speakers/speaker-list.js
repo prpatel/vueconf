@@ -79,7 +79,7 @@ export default
         img: 'https://cfp.connectevents.io/system/avatars/1749/large/tessa.jpg?1542662000' },
     { sessionTitle: 'Web Accessibility with VueJS',
         sessionAbstract: 'Want to learn about Web Accessibility with Vue.js? A Board Certified Assistant Behavior Analyst turned Web Developer gives you a different take on accessibility and why it is important. Web Accessibility is a way to make everyone - regardless of hardware, software, language, location, or ability - have access to the web and internet in whole. Let\'s use Vue.js to create accessible web apps!',
-        twitter: 'https://twitter.com/vueconfus',
+        twitter: '',
         name: 'Maria Lamardo',
         title: 'My name is Maria Lamardo. I am originally from Caracas, Venezuela and currently reside in North Carolina. I graduated cum laude from Florida International University where I received a Bachelor’s in Psychology and a minor in business. I provided behavioral therapy for children with developmental disabilities for 8 years as a Board Certified Assistant Behavior Analyst. Now, as a software developer, I am very passionate about the importance of web accessibility.',
         img: 'https://cfp.connectevents.io/system/avatars/1699/large/maria.jpeg?1543892057' },
