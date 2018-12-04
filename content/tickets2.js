@@ -6,6 +6,13 @@ export default [
     disabled: false,
     url: 'https://tickets.connectevents.io/events/vueconf2019/'
   },
+    {
+        name: 'Individual Conference + Workshop',
+        date: 'Conference + Workshop March 25-27',
+        price: '$1395',
+        disabled: false,
+        url: 'https://tickets.connectevents.io/events/vueconf2019/'
+    },
   {
     name: 'Group',
     date: 'Conference March 26-27',
@@ -14,9 +21,9 @@ export default [
     url: 'https://tickets.connectevents.io/events/vueconf2019/'
   },
   {
-    name: 'Conference + Workshop',
+    name: 'Group Conference + Workshop',
     date: 'Conference + Workshop March 25-27',
-    price: '$1295',
+    price: '$1345',
     disabled: false,
     url: 'https://tickets.connectevents.io/events/vueconf2019/'
   }

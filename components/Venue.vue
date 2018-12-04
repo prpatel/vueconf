@@ -42,7 +42,7 @@ export default {
 
   .venue__map
     margin-top: 40px
-    display: block
+    display: inline
     @include card
 
     img

@@ -5,7 +5,7 @@
     h1 Tickets
 
     p
-      | Regular price tickets available until January 15
+      | Regular price tickets available until February 11
     .ticket(v-for="ticket2 in tickets2")
       span
         span.ticket__name {{ ticket2.name }}
