@@ -1,17 +1,16 @@
-<template lang="pug">
-.container
-  .section.desc-section
-    .container__inner.post-section
-      include:markdown-it ../content/summaryText.md
-
-  photo-slider(:photos="photos", :autoPlayDuration="10000")
-  .section.videos-section
-    .container__inner.post-section
-      h2 Talks
-      video-player(:talks="talks")
-      a.button.youtube(href="https://www.youtube.com/channel/UC9dJjbYeXjirDYYVfUD3bSw") See on YouTube
+<template>
+    <div class="container">
+        <div class="section desc-section">
+            <div class="container__inner post-section"></div>
+        </div>
+        <photo-slider :photos="photos" :autoPlayDuration="10000"></photo-slider>
+        <div class="section videos-section">
+            <div class="container__inner post-section">
+                <h2>Talks</h2>
+                <video-player :talks="talks"></video-player><a class="button youtube" href="https://www.youtube.com/channel/UC9dJjbYeXjirDYYVfUD3bSw">See on YouTube</a></div>
+        </div>
+    </div>
 </template>
-
 <script>
 import PhotoSlider from '../components/PhotoSlider'
 import VideoPlayer from '../components/VideoPlayer'
@@ -47,25 +46,26 @@ export default {
 }
 </script>
 
-<style lang="sass" scoped>
-  @import ~assets/css/base/helpers
 
-  h1
+<style lang="sass" scoped>
+@import ~assets/css/base/helpers
+
+h1
     margin-bottom: 64px
 
-  .desc-section
+.desc-section
     padding-top: 0
 
-  .videos-section
+.videos-section
     background-color: $color-blue
     margin-bottom: -80px
     padding-top: 10px
 
     h2, p
-      color: white
+        color: white
 
 
     .youtube
-      font-size: 12pt
-      margin-top: 48px
+        font-size: 12pt
+        margin-top: 48px
 </style>

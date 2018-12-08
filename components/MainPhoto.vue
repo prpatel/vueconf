@@ -1,12 +1,13 @@
-<template lang="pug">
-  .main-photo
-    .image-wrapper
-      .image(v-bind:style="{backgroundImage: `url(${backgroundUrl})`}", :class="{loading: !loaded}")
-      .image-backdrop(v-bind:style="{backgroundImage: `url(${photo.thumbnail})`}")
+<template>
+<div class="main-photo">
+    <div class="image-wrapper">
+        <div class="image" v-bind:style="{backgroundImage: `url(${backgroundUrl})`}" :class="{loading: !loaded}"></div>
+        <div class="image-backdrop" v-bind:style="{backgroundImage: `url(${photo.thumbnail})`}"></div>
+    </div>
+</div>
 </template>
 
 <script>
-
 
 export default {
   mounted() {
@@ -39,10 +40,11 @@ export default {
   }
 }
 </script>
-<style lang="sass" scoped>
-  @import ~assets/css/base/helpers
 
-  .main-photo
+<style lang="sass" scoped>
+@import ~assets/css/base/helpers
+
+.main-photo
     .image-wrapper
       background-color: darken($color-text, 20)
       height: calc(100vh * 0.8)

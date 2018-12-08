@@ -9,7 +9,7 @@ module.exports = {
   ** Headers of the page
   */
   head: {
-    title: 'starter',
+    title: 'Vueconf.US',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1, user-scalable=no' },
@@ -48,7 +48,7 @@ module.exports = {
   */
   loading: { color: '#3B8070' },
   plugins: [
-    // { src: '~plugins/analytics', ssr: false },
+    { src: '~plugins/analytics', ssr: false },
     { src: '~plugins/cookies', ssr: false },
     { src: '~plugins/offline.js', ssr: false }
   ]

@@ -1,19 +1,22 @@
-<template lang="pug">
-  transition(name="modal")
-    .modal-mask
-      .modal-wrapper(@click.self="$emit('close')")
-        .modal-container
-
-          .modal-header
-            slot(name="header")
-          .modal-body
-            slot(name="body")
-
-          .modal-footer
-            slot(name="footer")
-        button.button-secondary.modal-button(@click="$emit('close')")
-          | Close
+<template>
+<transition name="modal">
+    <div class="modal-mask">
+        <div class="modal-wrapper" @click.self="$emit('close')">
+            <div class="modal-container">
+                <div class="modal-header">
+                    <slot name="header"></slot>
+                </div>
+                <div class="modal-body">
+                    <slot name="body"></slot>
+                </div>
+                <div class="modal-footer">
+                    <slot name="footer"></slot>
+                </div>
+            </div><button class="button-secondary modal-button" @click="$emit('close')">Close</button></div>
+    </div>
+</transition>
 </template>
+
 
 <script>
 export default {

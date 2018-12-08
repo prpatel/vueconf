@@ -51,15 +51,15 @@
           - Implementing Vuex pseudo-cache
           - Best practices, common gotchas, and application architecture
       talk(:talk="introVue", :desc-flex="7")
-        :markdown-it
-           This workshop will teach you the fundamentals of Vue so you can start being productive and building apps immediately. With visual animations and analogies that make abstract concepts concrete, along with coding challenges that help you learn by doing, you'll have a solid foundation of Vue skills by the end of the day. Brought to you by the teachers at VueMastery.com.
+      //-  :markdown-it
+      //-    This workshop will teach you the fundamentals of Vue so you can start being productive and building apps immediately. With visual animations and analogies that make abstract concepts concrete, along with coding challenges that help you learn by doing, you'll have a solid foundation of Vue skills by the end of the day. Brought to you by the teachers at VueMastery.com.
       talk(:talk="vueComponents", :desc-flex="7")
-        :markdown-it
-           Components are the bread and butter of most modern front-end frameworks, such as Vue.js. They help you structure and manage your application by glueing together your application logic and the interface. However, as an application grows, its components tend to get bigger and harder to reason about.
-           This workshop will demonstrate how to efficiently design your components by focusing on maximum flexibility while avoiding premature optimisation. Throughout the workshop, we’ll build a set of components for a preexisting application. Following the evolving requirements, we will then perform a series of refactoring cycles to explore different possible solutions and patterns/anti-patterns. We’ll also talk about good practices for managing responsibilities of our components. By the end of the workshop, you should be able to write future-proof components that are easy to work with and resilient to changes.
+      //-  :markdown-it
+      //-    Components are the bread and butter of most modern front-end frameworks, such as Vue.js. They help you structure and manage your application by glueing together your application logic and the interface. However, as an application grows, its components tend to get bigger and harder to reason about.
+      //-    This workshop will demonstrate how to efficiently design your components by focusing on maximum flexibility while avoiding premature optimisation. Throughout the workshop, we’ll build a set of components for a preexisting application. Following the evolving requirements, we will then perform a series of refactoring cycles to explore different possible solutions and patterns/anti-patterns. We’ll also talk about good practices for managing responsibilities of our components. By the end of the workshop, you should be able to write future-proof components that are easy to work with and resilient to changes.
       talk(:talk="vueVixens", :desc-flex="7")
-        :markdown-it
-           Vueconf.US is pleased to partner with VueVixens to bring this full day Vue.js training as part of the event. Details for applying for a VueVixens scholarship will be posted soon!
+      //-  :markdown-it
+      //-    Vueconf.US is pleased to partner with VueVixens to bring this full day Vue.js training as part of the event. Details for applying for a VueVixens scholarship will be posted soon!
 
 </template>
 

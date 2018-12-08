@@ -1,24 +1,15 @@
 <template lang="pug">
-  .hero-banner
-    .hero-banner__content
-      //- logo-type
-      img.hero-banner__image(src="~/assets/img/vuesplash.png")
-      br
-      br
-      h2.hero-banner__subheader
-        strong STRAZ ARTS CENTER
-        br
-        | Tampa, USA • March 25-27, 2019
-      h1.hero-banner__tagline Art. Code. Vue.
-      h2.hero-banner__subheader.hero-banner__subheader--last
-        strong Workshop day:
-        |  March 25,
-        br
-        strong Main Conference:
-        |  March 26-27
-      a.post-section__button.button(href="https://tickets.connectevents.io/events/vueconf2019/")
-        | Register
+<div class="hero-banner">
+    <div class="hero-banner__content"><img class="hero-banner__image" src="~/assets/img/vuesplash.png" /><br/><br/>
+        <h2 class="hero-banner__subheader"><strong>STRAZ ARTS CENTER</strong><br/>Tampa, USA • March 25-27, 2019</h2>
+        <h1 class="hero-banner__tagline">Art. Code. Vue.</h1>
+        <h2 class="hero-banner__subheader hero-banner__subheader--last"><strong>Workshop day:</strong> March 25,<br/>
+        <strong>Main Conference:</strong> March 26-27</h2>
+        <a class="post-section__button button" href="https://tickets.connectevents.io/events/vueconf2019/">Register</a>
+    </div>
+</div>
 </template>
+
 
 <script>
 import LogoType from './LogoType.vue'

@@ -2,10 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a1ddc5e6-ff4d-490d-a271-bdbfd8a9316b" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/components/Tickets.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/Tickets.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Cookies.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/Cookies.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Hero.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/Hero.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Lightning.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/Lightning.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/MainPhoto.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/MainPhoto.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Modal.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/Modal.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Navbar.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/Navbar.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Newsletter.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/Newsletter.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/PhotoList.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/PhotoList.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/PhotoSlider.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/PhotoSlider.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/SplashVideo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/SplashVideo.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/Venue.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/Venue.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/VideoNav.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/VideoNav.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/VideoPlayer.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/VideoPlayer.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/WroclawVideo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/WroclawVideo.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/content/speakers/speaker-list.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/speakers/speaker-list.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/tickets2.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/tickets2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/npm-debug.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nuxt.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/nuxt.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/guide.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/guide.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/summary.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/summary.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/workshops.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/workshops.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/analytics.js" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/analytics.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/cover.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/cover.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,91 +39,94 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/components/Hero.vue">
+        <entry file="file://$PROJECT_DIR$/components/VideoPlayer.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+            <state relative-caret-position="246">
+              <caret line="42" column="9" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
+              <folding>
+                <element signature="e#318#351#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/workshops.vue">
+        <entry file="file://$PROJECT_DIR$/components/WroclawVideo.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="702">
-              <caret line="61" column="189" selection-start-line="61" selection-start-column="189" selection-end-line="61" selection-end-column="189" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/nuxt.config.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="538">
-              <caret line="26" column="21" lean-forward="true" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/content/tickets2.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="7" column="4" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/content/speakers/speaker-list.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="50" column="10" selection-start-line="50" selection-start-column="10" selection-end-line="50" selection-end-column="10" />
+            <state relative-caret-position="336">
+              <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/components/Venue.vue">
+        <entry file="file://$PROJECT_DIR$/pages/guide.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1056">
-              <caret line="44" column="19" selection-start-line="44" selection-start-column="19" selection-end-line="44" selection-end-column="19" />
+            <state relative-caret-position="130">
+              <caret line="90" selection-start-line="90" selection-end-line="90" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/content/speakers/workshop-list.js">
+        <entry file="file://$PROJECT_DIR$/pages/summary.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="648">
-              <caret line="27" column="18" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
+            <state relative-caret-position="990">
+              <caret line="64" column="20" lean-forward="true" selection-start-line="64" selection-start-column="20" selection-end-line="64" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/content/scheduleDay0.json">
+        <entry file="file://$PROJECT_DIR$/components/Newsletter.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="720">
-              <caret line="30" column="4" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
+            <state relative-caret-position="342">
+              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/components/Sponsors.vue">
+        <entry file="file://$PROJECT_DIR$/components/PhotoList.vue">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="552">
-              <caret line="23" column="54" selection-start-line="23" selection-start-column="54" selection-end-line="23" selection-end-column="54" />
+              <caret line="23" column="17" lean-forward="true" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/components/Tickets.vue">
+        <entry file="file://$PROJECT_DIR$/components/PhotoSlider.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="20" column="11" lean-forward="true" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
+            <state relative-caret-position="3216">
+              <caret line="244" lean-forward="true" selection-start-line="124" selection-end-line="244" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/components/SplashVideo.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="780">
+              <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/components/Venue.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="528">
+              <caret line="22" selection-start-line="22" selection-end-line="22" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/components/VideoNav.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="899">
+              <caret line="42" selection-start-line="42" selection-end-line="42" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -109,14 +135,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>events/vueconfus</find>
-      <find>join the band!</find>
-      <find>Late tickets available February 12 - March 12</find>
-      <find>Connect.Tech COMBO</find>
-      <find>tickets3</find>
-      <find>Sheraton New Orleans</find>
-      <find>drasner</find>
-      <find>blakeWorkshop</find>
       <find>blake newman</find>
       <find>workshop-list</find>
       <find>but a state management pattern</find>
@@ -130,7 +148,6 @@
       <find>as an application grows</find>
       <find>schedule</find>
       <find>500 canal</find>
-      <find>presentations</find>
       <find>sched</find>
       <find>as an application grows,</find>
       <find>diamon</find>
@@ -139,6 +156,15 @@
       <find>conference + work</find>
       <find>january 15</find>
       <find>straz1</find>
+      <find>workshops-</find>
+      <find>workshops</find>
+      <find>presentations</find>
+      <find>maria</find>
+      <find>this</find>
+      <find>this work</find>
+      <find>scss</find>
+      <find>sass-loader</find>
+      <find>webpack</find>
     </findStrings>
     <replaceStrings>
       <replace>&quot;twitter&quot;: &quot;https://twitter.com/</replace>
@@ -155,14 +181,12 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pages/codeofconduct.vue" />
-        <option value="$PROJECT_DIR$/components/Lightning.vue" />
         <option value="$PROJECT_DIR$/pages/speakers.vue" />
         <option value="$PROJECT_DIR$/content/tickets.js" />
         <option value="$PROJECT_DIR$/content/scheduleDay0.js" />
         <option value="$PROJECT_DIR$/content/scheduleDay1.js" />
         <option value="$PROJECT_DIR$/content/scheduleDay2.js" />
         <option value="$PROJECT_DIR$/components/Event.vue" />
-        <option value="$PROJECT_DIR$/components/Navbar.vue" />
         <option value="$PROJECT_DIR$/components/Speaker.vue" />
         <option value="$PROJECT_DIR$/content/scheduleDay2.json" />
         <option value="$PROJECT_DIR$/content/tickets3.js" />
@@ -172,22 +196,38 @@
         <option value="$PROJECT_DIR$/components/Workshops.vue" />
         <option value="$PROJECT_DIR$/content/scheduleDay0.json" />
         <option value="$PROJECT_DIR$/pages/schedule.vue" />
-        <option value="$PROJECT_DIR$/pages/index.vue" />
-        <option value="$PROJECT_DIR$/components/Hero.vue" />
         <option value="$PROJECT_DIR$/components/Sponsors.vue" />
         <option value="$PROJECT_DIR$/components/Footer.vue" />
-        <option value="$PROJECT_DIR$/pages/workshops.vue" />
         <option value="$PROJECT_DIR$/content/tickets2.js" />
         <option value="$PROJECT_DIR$/components/Tickets.vue" />
+        <option value="$PROJECT_DIR$/pages/index.vue" />
+        <option value="$PROJECT_DIR$/plugins/analytics.js" />
         <option value="$PROJECT_DIR$/content/speakers/speaker-list.js" />
+        <option value="$PROJECT_DIR$/pages/workshops.vue" />
+        <option value="$PROJECT_DIR$/components/Cookies.vue" />
+        <option value="$PROJECT_DIR$/components/Hero.vue" />
+        <option value="$PROJECT_DIR$/components/Modal.vue" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/nuxt.config.js" />
+        <option value="$PROJECT_DIR$/components/Lightning.vue" />
+        <option value="$PROJECT_DIR$/components/MainPhoto.vue" />
+        <option value="$PROJECT_DIR$/components/Navbar.vue" />
+        <option value="$PROJECT_DIR$/components/Newsletter.vue" />
+        <option value="$PROJECT_DIR$/components/PhotoList.vue" />
+        <option value="$PROJECT_DIR$/components/PhotoSlider.vue" />
+        <option value="$PROJECT_DIR$/components/SplashVideo.vue" />
         <option value="$PROJECT_DIR$/components/Venue.vue" />
+        <option value="$PROJECT_DIR$/components/VideoNav.vue" />
+        <option value="$PROJECT_DIR$/components/VideoPlayer.vue" />
+        <option value="$PROJECT_DIR$/components/WroclawVideo.vue" />
+        <option value="$PROJECT_DIR$/pages/summary.vue" />
+        <option value="$PROJECT_DIR$/pages/guide.vue" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1280" />
     <option name="y" value="23" />
-    <option name="width" value="1280" />
+    <option name="width" value="1687" />
     <option name="height" value="1417" />
   </component>
   <component name="ProjectView">
@@ -212,28 +252,13 @@
             <path>
               <item name="vueconf" type="b2602c69:ProjectViewProjectNode" />
               <item name="vueconf" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="vueconf" type="b2602c69:ProjectViewProjectNode" />
               <item name="vueconf" type="462c0819:PsiDirectoryNode" />
-              <item name="content" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="vueconf" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vueconf" type="462c0819:PsiDirectoryNode" />
-              <item name="content" type="462c0819:PsiDirectoryNode" />
-              <item name="speakers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="vueconf" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vueconf" type="462c0819:PsiDirectoryNode" />
-              <item name="layouts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="vueconf" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vueconf" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="plugins" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -242,11 +267,12 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -319,18 +345,18 @@
       <workItem from="1543877080392" duration="98000" />
       <workItem from="1543877227692" duration="442000" />
       <workItem from="1543877729301" duration="4739000" />
-      <workItem from="1543888847755" duration="2541000" />
+      <workItem from="1543888847755" duration="10253000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58593000" />
+    <option name="totallyTimeSpent" value="66305000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1280" y="23" width="1280" height="1417" extended-state="0" />
+    <frame x="0" y="23" width="1687" height="1417" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18093699" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13617021" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -367,22 +393,12 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pages/guide.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="30" column="90" selection-start-line="30" selection-start-column="90" selection-end-line="30" selection-end-column="90" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/codeofconduct.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
           <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/Intro.vue">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/layouts/default.vue">
       <provider selected="true" editor-type-id="text-editor" />
@@ -404,24 +420,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/Lightning.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="132" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="132" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/components/Event.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
           <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/Navbar.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -470,16 +472,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/index.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1416">
-          <caret line="59" column="10" selection-start-line="59" selection-start-column="10" selection-end-line="59" selection-end-column="10" />
-          <folding>
-            <element signature="e#428#480#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/components/SpeakersList.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
@@ -515,13 +507,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/Hero.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/components/Sponsors.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="552">
@@ -529,45 +514,186 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/workshops.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="702">
-          <caret line="61" column="189" selection-start-line="61" selection-start-column="189" selection-end-line="61" selection-end-column="189" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nuxt.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="538">
-          <caret line="26" column="21" lean-forward="true" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/content/tickets2.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
-          <caret line="7" column="4" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/components/Tickets.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
-          <caret line="20" column="11" lean-forward="true" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
+          <caret line="20" column="11" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/index.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+          <folding>
+            <element signature="e#428#480#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/analytics.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/content/speakers/speaker-list.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="50" column="10" selection-start-line="50" selection-start-column="10" selection-end-line="50" selection-end-column="10" />
+        <state relative-caret-position="336">
+          <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/workshops.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1133">
+          <caret line="61" column="9" selection-start-line="61" selection-start-column="9" selection-end-line="61" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/Attraction.vue">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/Intro.vue">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/Cookies.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/Hero.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="18" column="12" lean-forward="true" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/Modal.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="936">
+          <caret line="39" column="13" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="30" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nuxt.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/Lightning.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/MainPhoto.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="17" column="18" lean-forward="true" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/Navbar.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/Newsletter.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/PhotoList.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="23" column="17" lean-forward="true" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/PhotoSlider.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3216">
+          <caret line="244" lean-forward="true" selection-start-line="124" selection-end-line="244" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/SplashVideo.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/components/Venue.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1056">
-          <caret line="44" column="19" selection-start-line="44" selection-start-column="19" selection-end-line="44" selection-end-column="19" />
+        <state relative-caret-position="528">
+          <caret line="22" selection-start-line="22" selection-end-line="22" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/WroclawVideo.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/summary.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="990">
+          <caret line="64" column="20" lean-forward="true" selection-start-line="64" selection-start-column="20" selection-end-line="64" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/VideoNav.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="899">
+          <caret line="42" selection-start-line="42" selection-end-line="42" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/VideoPlayer.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="42" column="9" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
+          <folding>
+            <element signature="e#318#351#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/guide.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="90" selection-start-line="90" selection-end-line="90" />
         </state>
       </provider>
     </entry>

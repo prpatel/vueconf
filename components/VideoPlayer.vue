@@ -1,10 +1,12 @@
-<template lang="pug">
-  .video-player
-    .video-player__window
-      iframe(width="640", height="360", :src="selectedTalk.videoUrl", frameborder="0", allowfullscreen)
-    .video-player__nav
-      video-nav(:talks="filteredTalks" @talk:selected="handleTalkSelected", :selectedTalk="selectedTalk")
+<template>
+<div class="video-player">
+    <div class="video-player__window"><iframe width="640" height="360" :src="selectedTalk.videoUrl" frameborder="0" allowfullscreen="allowfullscreen"></iframe></div>
+    <div class="video-player__nav">
+        <video-nav :talks="filteredTalks" @talk:selected="handleTalkSelected" :selectedTalk="selectedTalk"></video-nav>
+    </div>
+</div>
 </template>
+
 <script>
 import VideoNav from './VideoNav'
 import evan from '../static/img/evan.jpg'
@@ -40,49 +42,39 @@ export default {
 }
 </script>
 <style lang="sass" scoped>
-  @import ~assets/css/base/helpers
-
-  .video-player
+@import ~assets/css/base/helpers
+.video-player
     display: flex
     flex-direction: row
     height: 360px
     box-shadow: 0 15px 35px rgba(50, 50, 93, 0.03), 0 5px 15px rgba(0, 0, 0, 0.06)
     border-radius: 5px
     overflow: hidden
-
-
-
-
-  iframe
-    position: relative
-    top: 0
-    left: 0
-    width: 640px
-    height: 360px
-
-  .video-player__window
-    background-color: black
-    padding-bottom: 0
-    position: relative
-
-  .video-player__nav
-    flex-grow: 1
-
-  @media #{$large-down}
-    .video-player
-      flex-direction: column
-      width: 100%
-      height: auto
-
-      iframe
-        width: 100%
-        height: 100%
-        position: absolute
+    iframe
+        position: relative
         top: 0
         left: 0
-        bottom: 0
-        right: 0
-
+        width: 640px
+        height: 360px
     .video-player__window
-      padding-top: 56.25%
+        background-color: black
+        padding-bottom: 0
+        position: relative
+    .video-player__nav
+        flex-grow: 1
+    @media #{$large-down}
+        .video-player
+            flex-direction: column
+            width: 100%
+            height: auto
+            iframe
+                width: 100%
+                height: 100%
+                position: absolute
+                top: 0
+                left: 0
+                bottom: 0
+                right: 0
+        .video-player__window
+            padding-top: 56.25%
 </style>

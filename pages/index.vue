@@ -5,7 +5,7 @@ div
   .container
     SubmitTalks
     tickets-section#tickets
-    workshops-section
+    workshops-section#presentations
     .container__inner.section.post-section
           //- TODO: Uncomment when there are speakers
           h1 Presentations

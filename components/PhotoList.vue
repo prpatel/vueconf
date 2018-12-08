@@ -1,13 +1,11 @@
-<template lang="pug">
-  .photo-list
-    .photo-list__wrapper
-      .photo-thumb(
-        v-for="photo in photos",
-        v-bind:style="{backgroundImage: `url(${photo.thumbnail})`}",
-        :class="{selected: isSelected(photo)}"
-        @click="handlePhotoClick(photo)",
-      )
+<template>
+<div class="photo-list">
+    <div class="photo-list__wrapper">
+        <div class="photo-thumb" v-for="photo in photos" v-bind:style="{backgroundImage: `url(${photo.thumbnail})`}" :class="{selected: isSelected(photo)}" @click="handlePhotoClick(photo)"></div>
+    </div>
+</div>
 </template>
+
 
 <script>
 export default {
@@ -31,10 +29,11 @@ export default {
   }
 }
 </script>
-<style lang="sass">
-  @import ~assets/css/base/helpers
 
-  .photo-list
+<style lang="sass">
+@import ~assets/css/base/helpers
+
+.photo-list
     position: absolute
     top: 0
     left: 0
@@ -51,9 +50,9 @@ export default {
     overflow-x: scroll
 
     h1, h2, p
-     color: white
+        color: white
 
-  .photo-list__wrapper
+.photo-list__wrapper
     height: 520px
 
     display: flex
@@ -62,7 +61,7 @@ export default {
     justify-content: flex-start
     align-items: center
 
-  .photo-thumb
+.photo-thumb
     width: 260px
     height: 140px
     background-size: 300px
@@ -76,5 +75,5 @@ export default {
     box-shadow: 0 15px 35px rgba(50, 50, 93, 0.03), 0 5px 15px rgba(0, 0, 0, 0.06)
 
     &:hover, .selected
-      border: 4px solid $color-green--dark
+        border: 4px solid $color-green--dark
 </style>
